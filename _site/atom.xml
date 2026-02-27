@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>How to Make Stuff</title>
- <link href="http://asor12.github.io/atom.xml" rel="self"/>
- <link href="http://asor12.github.io/"/>
- <updated>2026-02-27T14:30:26-08:00</updated>
- <id>http://asor12.github.io/</id>
+ <title>Rosaxote's World Atlas</title>
+ <link href="https://rosaxote.github.io/atom.xml" rel="self"/>
+ <link href="https://rosaxote.github.io/"/>
+ <updated>2026-02-27T14:38:08-08:00</updated>
+ <id>https://rosaxote.github.io/</id>
  <author>
-   <name>asor12</name>
+   <name>Rosaxote</name>
    <email>op.3no.2@gmail.com</email>
  </author>
 
  
  <entry>
    <title>What would a remote world look like?</title>
-   <link href="http://asor12.github.io/old/2020/05/25/what-would-remote-world-look-like.html"/>
+   <link href="https://rosaxote.github.io/old/2020/05/25/what-would-remote-world-look-like.html"/>
    <updated>2020-05-25T00:00:00-07:00</updated>
-   <id>http://asor12.github.io/old/2020/05/25/what-would-remote-world-look-like</id>
+   <id>https://rosaxote.github.io/old/2020/05/25/what-would-remote-world-look-like</id>
    <content type="html">&lt;h1 id=&quot;what-would-a-remote-world-look-like&quot;&gt;What would a remote world look like?&lt;/h1&gt;
 
 &lt;p class=&quot;meta&quot;&gt;5.25.20 - San Francisco - R. Lin&lt;/p&gt;
@@ -113,9 +113,9 @@
  
  <entry>
    <title>How to Sell</title>
-   <link href="http://asor12.github.io/old/2020/03/26/how-to-sell.html"/>
+   <link href="https://rosaxote.github.io/old/2020/03/26/how-to-sell.html"/>
    <updated>2020-03-26T00:00:00-07:00</updated>
-   <id>http://asor12.github.io/old/2020/03/26/how-to-sell</id>
+   <id>https://rosaxote.github.io/old/2020/03/26/how-to-sell</id>
    <content type="html">&lt;h1 id=&quot;how-to-sell&quot;&gt;How to Sell&lt;/h1&gt;
 
 &lt;p class=&quot;meta&quot;&gt;3.26.20 - San Francisco - R. Lin&lt;/p&gt;
@@ -222,9 +222,9 @@ Sixth cut - 1 girl who likes their second date enough to go on a third one. → 
  
  <entry>
    <title>Deploy an App to Kubernetes (Digital Ocean)</title>
-   <link href="http://asor12.github.io/old/2020/03/25/deploy-app-kubernetes.html"/>
+   <link href="https://rosaxote.github.io/old/2020/03/25/deploy-app-kubernetes.html"/>
    <updated>2020-03-25T00:00:00-07:00</updated>
-   <id>http://asor12.github.io/old/2020/03/25/deploy-app-kubernetes</id>
+   <id>https://rosaxote.github.io/old/2020/03/25/deploy-app-kubernetes</id>
    <content type="html">&lt;h1 id=&quot;deploy-an-app-to-kubernetes-digital-ocean&quot;&gt;Deploy an App to Kubernetes (Digital Ocean)&lt;/h1&gt;
 
 &lt;p class=&quot;meta&quot;&gt;3.25.20 - San Francisco - R. Lin&lt;/p&gt;
