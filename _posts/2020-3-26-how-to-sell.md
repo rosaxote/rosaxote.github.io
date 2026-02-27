@@ -21,7 +21,7 @@ Sales is a whole discipline unto itself. There is actually quite a lot of termin
 <p class="block">
 1. Ask questions
 <br>
-2. Shut up and listen
+2. Stop talking and listen
 </p>
   
 (That might appear to be two things, but it's only so because some people erroneously do one without the other.)
@@ -40,9 +40,9 @@ What solutions are they looking at? What's their budget? Who determines their bu
 
 What's their timeline? 
 
-### Shut up and listen
+### Stop talking and listen
 
-Your goal now is to get them to talk as much as possible, to open up to you. The more they open up to you, the more they build trust that you'll listen and hear them, that you might actually be able to fix their problem because you understand. So shut up and listen.
+Your goal now is to get them to talk as much as possible, to open up to you. The more they open up to you, the more they build trust that you'll listen and hear them, that you might actually be able to fix their problem because you understand. So stop talking and listen.
 
 So many new startup founders talk too much when they're trying to sell something. I know, because I did this. You're trying to explain how you work, how great you'd do to tackle their problem, all the ways you're different. 
 
@@ -56,9 +56,9 @@ Did we get that deal? Did we get any of the other leads on our trip?
 
 I think you know the answer.
 
-I learned to ask questions and shut up.<sup>1</sup>
+I learned to ask questions and zip it.<sup>1</sup>
 
-### Now that you've asked questions, and shut up, what next?
+### Now that you've asked questions, and stopped talking, what next?
 
 It depends. Are they a potential customer? You asked questions for two reasons: 1) to get them to talk and 2) to see if you can solve their problem. Maybe it's the case that you actually aren't a good fit for their problem, now that you've heard it. In that case, tell them so, but ask to keep in touch. If you end up with a solution in the future, you can ping them.
 

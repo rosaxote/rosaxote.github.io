@@ -23,7 +23,7 @@ html, body {
 
 body {
   background-color: #fbf7f5;
-  font: 14px 'Zen Maru Gothic', sans-serif;
+  font: 16px 'Zen Maru Gothic', sans-serif;
   *font-size: small;
   text-align: center;
 }
@@ -60,7 +60,7 @@ h1 {
 
 p {
   margin: 1em 0;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 a {
@@ -156,7 +156,7 @@ ul.posts {
     font-size: 0.45em;
     font-weight: normal;
     font-style: italic;
-    color: #c8c5c4;
+    color: #777;
   }
 
   .site .title .about-link:hover {
