@@ -92,6 +92,10 @@ sup {
 /*
 /*****************************************************************************/
 
+#home h2 {
+  color: #555;
+}
+
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
@@ -131,19 +135,20 @@ ul.posts {
   align-items: baseline;
   font-family: 'Lora', serif;
   font-style: italic;
-  color: black;
+  color: #333;
   font-weight: 700;
+  margin-top: 5em;
   margin-bottom: 2em;
   font-size: 220%;
 }
 
   .site .title a {
-    color: black;
+    color: #333;
     text-decoration: none;
   }
 
   .site .title a:hover {
-    color: black;
+    color: #222;
   }
 
   .site .title .about-link {
@@ -155,7 +160,7 @@ ul.posts {
   }
 
   .site .title .about-link:hover {
-    color: black;
+    color: #555;
   }
 
   .site .meta {
@@ -210,6 +215,17 @@ ul.posts {
 #post {
 
 }
+
+  #post h1,
+  #post h2,
+  #post h3,
+  #post h4,
+  #post h5,
+  #post h6 {
+    color: #333;
+    padding-top: 0.5em;
+    padding-bottom: 0.35em;
+  }
 
   /* standard */
 
@@ -269,6 +285,8 @@ ul.posts {
   #post ul,
   #post ol {
     margin-left: 1.35em;
+    margin-top: 0.85em;
+    margin-bottom: 0.85em;
   }
 
   #post code {

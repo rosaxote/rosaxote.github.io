@@ -52,11 +52,16 @@ In essence, being in-person drove density. People needed to be (reasonably) clos
 
 That said, people like public spaces. They like strolling through a vibrant community center with restaurants, arts, and entertainment. But people gravitate to the lowest energy orbit. Maybe this means more mobile restaurants and entertainment.
 
+
 ### Bonus predictions from the crystal ball
 
+
 1. **More free time, more hobbies.**  People now have 1-2 more free hours in the day without commutes. They'll want to find things to do with that time, with reading, hobbies, socializing, exercising, games.
+
 2. **People will be farther, but also more inescapable.** This will extend what happened when people got cell phones, then social media. More people remote means less social barriers to asking to hang out. Now there's less excuse to turn down a video call, when you're not even being asked to dress up and go out! People will need a "silent mode" for their time.
+
 3. **Social circles might shrink for some and widen for others.** This depends on how much home/leisure replaces work for meeting new people. If you have a good home/leisure engine for meeting new people, you will both meet more people and get to know them better/faster. If you don't, you will spend more time with people you already know.
+
 4. **Companies will have issues with culture.** Establishing a remote culture is harder than in person. People will have less loyalty. On the flip side, there will be less politics.
 
 
