@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>Deploy an App to Kubernetes (Digital Ocean)</title>
+   <meta name="author" content="Making Stuff" />
+   <link href="[link]" rel="alternate" title="How to Make Stuff" type="application/atom+xml" />
+   <meta name="readability-verification" content="QCzSs992GxmRYRKVpPeZ6LE2tS8aYKxsSSQKV8YM"/>
+
+   <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection"/>
+  <link href="https://fonts.googleapis.com/css?family=Cardo|Libre+Franklin" rel="stylesheet">
+
+   <!-- Typekit -->
+   <script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+
+<!-- ClickTale Top part -->
+<script type="text/javascript">
+var WRInitTime=(new Date()).getTime();
+</script>
+<!-- ClickTale end of Top part -->
+
+<div class="site">
+  <div class="title">
+    <a href="/">Rosaxote's World Atlas</a>
+  </div>
+
+  <div id="post">
+<h1 id="deploy-an-app-to-kubernetes-digital-ocean">Deploy an App to Kubernetes (Digital Ocean)</h1>
+
+<p class="meta">3.25.20 - San Francisco - R. Lin</p>
+
+<p>It might come upon you one day to host a rapidly scalable containerized app.</p>
+
+<p>Perhaps you have an application with such byzantine requirements that you have little recourse but to Dockerize it. Perhaps you received a trunkload of free cloud credits from one of the hulks trying to swipe off their competition. Whatever your circumstances, here is a guide to a path forward.</p>
+
+<h3 id="pre-steps">Pre-Steps</h3>
+
+<p>Firstly, get yourself seated comfortably at a chair or perched at a standing desk.</p>
+
+<p>Secondly, spin up a browser and make your way to the cloud provider of your choice. In this case, I am using Digital Ocean. <em>If you are using something else, do not despair, I’m sure there are many nifty guides out there. Unless if you are using AWS.</em></p>
+
+<p>Now, before we move on, if you have a Dockerized app, deploy your app to DockerHub (you can choose a public or private repo). You will use <em>yourDockerUsername/project</em> as your image in the yaml file below. (Instructions at end of post.)</p>
+
+<h3 id="steps-to-deployment">Steps to Deployment</h3>
+
+<p>Login to Digital Ocean.</p>
+
+<p>Click the Create button –&gt; select Clusters.</p>
+
+<p>At last! We are at the gates of Kubernetes. Follow the instructions for setup.</p>
+
+<p>On the last step, marked ‘deploy the app’, do take a moment to check that your cluster is available:</p>
+<ul>
+  <li>In Terminal, run <code class="language-plaintext highlighter-rouge">kubectl --context [insert-context-name-here] get nodes</code>.  It should return your cluster(s).
+    <ul>
+      <li>To see your current context, run <code class="language-plaintext highlighter-rouge">kubectl config current-context</code>.</li>
+    </ul>
+  </li>
+  <li>Now create a deployment.yaml file in the root of your project folder with the following template code:</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apiVersion: v1
+kind: Service
+metadata:
+  name: [name of your app]
+spec:
+  selector:
+    app: [name of your app]
+  ports:
+  - protocol: "TCP"
+    port: 6000
+    targetPort: 5000
+  type: LoadBalancer
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: [name of your app]
+spec:
+  selector:
+    matchLabels:
+      app: [name of your app]
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: [name of your app]
+    spec:
+      containers:
+      - name: [name of your app]
+        image: [yourDockerUsername/repoName]
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 5000
+</code></pre></div></div>
+
+<p>This YAML file tells Kubernetes what you want to run. It is telling Kubernetes the following: * Open the gates of port 6000 for this fine load-balanced service * Spin up two instances (‘Replicas’) of the container, so that if one fails ye shall have another.</p>
+
+<p><code class="language-plaintext highlighter-rouge">ImagePullPolicy: Always</code> tells Kubernetes it should always pull the latest version of your image, but this can actually get a little tricky. If your image name/tag doesn’t change, it just ignores it. (More on that in Section ‘Updating’).</p>
+
+<h3 id="deploy-the-app">Deploy the App</h3>
+
+<p>Finally, you are ready to unleash your app onto Kubernetes. Deploy the app with <code class="language-plaintext highlighter-rouge">kubectl --context [your-context-name-here] apply -f deployment.yaml</code>.</p>
+<ul>
+  <li>If you’re deploying from a private Dockerhub repo, create a Secret on Kubernetes (see <a href="https://developer.ibm.com/tutorials/accessing-dockerhub-repos-in-iks/">instructions</a>)</li>
+</ul>
+
+<p>Check that the pods deployed with <code class="language-plaintext highlighter-rouge">kubectl get pods</code>.</p>
+
+<p>Check if the service is ready with <code class="language-plaintext highlighter-rouge">kubectl get service</code> (This may take a few minutes).</p>
+
+<p>Once it’s ready, it’ll list an External-IP address, like so:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>NAME                 TYPE           CLUSTER-IP      EXTERNAL-IP       PORT(S)          AGE
+mordor-test-api    LoadBalancer   10.245.171.19   171.128.120.615   80:32101/TCP     33m
+isengard-test-api   LoadBalancer   10.245.80.198   134.203.143.165   6000:32206/TCP   5m19s
+kubernetes           ClusterIP      10.237.0.1      &lt;none&gt;            443/TCP          57m
+</code></pre></div></div>
+
+<p>Go to the external IP address to see if your app is running.</p>
+
+<p>For example, if your app is an API, call a request, say</p>
+
+<p><code class="language-plaintext highlighter-rouge">curl -X GET "http://134.203.143.165:6000/api" -H "Content-Type: application/json" --data '{"message": ["this house is red"]}'</code></p>
+
+<p>→ This should return a response, like <code class="language-plaintext highlighter-rouge">{"ESTIMATE":"No"}</code>.</p>
+
+<p>And lo and behold, if all has worked, you have a serviceable app running on Kubernetes. Pat thyself heartily for your efforts!</p>
+
+<h3 id="when-you-mess-up">When You Mess Up</h3>
+
+<p>If you mess up anywhere, just delete your deployment and start over. <em>This might not be the proper way, but it works for me.</em></p>
+<ul>
+  <li>First, use <code class="language-plaintext highlighter-rouge">kubectl get all</code> to list all applications and services on the cluster.</li>
+  <li>Next, delete the app’s Deployment and Service using kubectl delete: <code class="language-plaintext highlighter-rouge">kubectl delete {name of deployment} {name of service}</code>
+    <ul>
+      <li>for example, <code class="language-plaintext highlighter-rouge">kubectl delete deployment.apps/mordor-test-api-deploy service/mordor-test-api-service</code></li>
+      <li>returns: deployment “simple-deployment” deleted</li>
+      <li>service “simple-service” deleted</li>
+    </ul>
+  </li>
+  <li>More here: 
+<a href="https://coreos.com/tectonic/docs/latest/tutorials/sandbox/deleting-deployment.html">https://coreos.com/tectonic/docs/latest/tutorials/sandbox/deleting-deployment.html</a></li>
+</ul>
+
+<h3 id="updating">Updating</h3>
+
+<p>The easiest way I’ve found to update is to set the image to your latest version. You need to have tagged your image with a different tag, like v1/v2/vn etc. 
+Run 
+<code class="language-plaintext highlighter-rouge">kubectl set image deployments/mordor-test-rosa-deploy mordor-api-container=op3no2/mordor-api:[version #]</code></p>
+
+<p>Navigate to the external IP to check that it updated.</p>
+
+<h3 id="references">References</h3>
+
+<p>I likely would not have set up my app on Kubernetes without the help of the following links.</p>
+
+<p>Example app from Digital Ocean:</p>
+
+<p><a href="https://github.com/digitalocean/doks-example">https://github.com/digitalocean/doks-example</a></p>
+
+<p>Kubernetes instructions:</p>
+
+<p><a href="https://kubernetes.io/blog/2019/07/23/get-started-with-kubernetes-using-python/">https://kubernetes.io/blog/2019/07/23/get-started-with-kubernetes-using-python/</a></p>
+
+<p>Deploy private DockerHub to Kubernetes:</p>
+
+<p><a href="https://developer.ibm.com/tutorials/accessing-dockerhub-repos-in-iks/">https://developer.ibm.com/tutorials/accessing-dockerhub-repos-in-iks/</a></p>
+
+<p>Deploy ML model as an API on AWS:</p>
+
+<p><a href="https://towardsdatascience.com/deploy-a-machine-learning-model-as-an-api-on-aws-43e92d08d05b">https://towardsdatascience.com/deploy-a-machine-learning-model-as-an-api-on-aws-43e92d08d05b</a></p>
+
+<p>Rolling-update without downtime:</p>
+
+<p><a href="https://blog.sebastian-daschner.com/entries/zero-downtime-updates-kubernetes">https://blog.sebastian-daschner.com/entries/zero-downtime-updates-kubernetes</a></p>
+
+<h3 id="docker-instructions">Docker instructions</h3>
+
+<p>(After creating a dockerfile)</p>
+
+<p>Inside the app/ directory, run:
+<code class="language-plaintext highlighter-rouge">docker build -t &lt;your-dockerhub-username&gt;/model_api .</code></p>
+
+<p>Then run: <code class="language-plaintext highlighter-rouge">docker run -p 5000:5000 &lt;your-dockerhub-username&gt;/model_api</code></p>
+
+<p>Your application is now running in a Docker container. You can access it on http://0.0.0.0:5000/api or whatever port you set it to.</p>
+
+<p>Run <code class="language-plaintext highlighter-rouge">docker push &lt;your-dockerhub-username&gt;/model_api</code> to push the image to your DockerHub account.</p>
+
+</div>
+
+<div id="related">
+  <h4>Related Posts</h4>
+  <ul class="posts">
+    
+      <li><span>25 May 2020</span> &raquo; <a href="/2020/05/25/what-would-remote-world-look-like.html">What would a remote world look like?</a></li>
+    
+      <li><span>26 Mar 2020</span> &raquo; <a href="/2020/03/26/how-to-sell.html">How to Sell</a></li>
+    
+  </ul>
+</div>
+
+
+  <div class="footer">
+    <div class="contact">
+      <p>
+        <!--Email me at
+        <br />
+          op.3no.2 /at/ gmail.com
+        <br />-->
+      </p>
+    </div>
+    <div class="rss">
+      <a href="[link]">
+        RSS
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- ClickTale Bottom part -->
+<div id="ClickTaleDiv" style="display: none;"></div>
+<script type="text/javascript">
+if(document.location.protocol!='https:')
+  document.write(unescape("%3Cscript%20src='http://s.clicktale.net/WRb.js'%20type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+if(typeof ClickTale=='function') ClickTale(206,0.3,"www03");
+</script>
+<!-- ClickTale end of Bottom part -->
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-6016902-1");
+pageTracker._trackPageview();
+</script>
+<!-- Google Analytics end -->
+
+</body>
+</html>
