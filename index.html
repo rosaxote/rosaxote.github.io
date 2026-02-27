@@ -1,20 +1,25 @@
 ---
 layout: default
-title: Making Stuff
+title: Rosaxote's World Atlas
 published: true
 ---
 
 <div id="home">
-  <h2>Blog Posts</h2>
+  <h2>Main posts</h2>
   <ul class="posts">
     {% for post in site.posts %}
-      <li> <a href="{{ post.url }}">{{ post.title }}</a>  &bull;  <span>{{ post.date | date_to_string }}</span> </li>
+      {% if post.category == "main" %}
+        <li> <a href="{{ post.url }}">{{ post.title }}</a>  &bull;  <span>{{ post.date | date_to_string }}</span> </li>
+      {% endif %}
     {% endfor %}
   </ul>
 
-  <h2>Other</h2>
+  <h2>Old</h2>
   <ul class="posts">
-
+    {% for post in site.posts %}
+      {% if post.category == "old" %}
+        <li> <a href="{{ post.url }}">{{ post.title }}</a>  &bull;  <span>{{ post.date | date_to_string }}</span> </li>
+      {% endif %}
+    {% endfor %}
   </ul>
-  
 </div>

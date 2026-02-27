@@ -2,6 +2,7 @@
 layout: post
 title: Deploy an App to Kubernetes (Digital Ocean)
 published: true
+category: old
 ---
 
 {{ page.title }}
@@ -90,16 +91,16 @@ Once it’s ready, it’ll list an External-IP address, like so:
 
 ```
 NAME                 TYPE           CLUSTER-IP      EXTERNAL-IP       PORT(S)          AGE
-mordor-test-api    LoadBalancer   10.245.171.19   171.128.120.615   80:32101/TCP     33m
-isengard-test-api   LoadBalancer   10.245.80.198   134.203.143.165   6000:32206/TCP   5m19s
-kubernetes           ClusterIP      10.237.0.1      <none>            443/TCP          57m
+mordor-test-api    LoadBalancer   XX.XXX.XXX.XX   XX.XXX.XXX.XX   80:32101/TCP     33m
+isengard-test-api   LoadBalancer   XX.XXX.XXX.XX   XX.XXX.XXX.XX   6000:32206/TCP   5m19s
+kubernetes           ClusterIP      XX.XXX.XXX.XX      <none>            443/TCP          57m
 ```
 
 Go to the external IP address to see if your app is running.
 
 For example, if your app is an API, call a request, say 
 
-`curl -X GET "http://134.203.143.165:6000/api" -H "Content-Type: application/json" --data '{"message": ["this house is red"]}'` 
+`curl -X GET "http://XX.XXX.XXX.XX:6000/api" -H "Content-Type: application/json" --data '{"message": ["this house is red"]}'` 
 
 → This should return a response, like `{"ESTIMATE":"No"}`.
 
@@ -162,6 +163,6 @@ Inside the app/ directory, run:
 
 Then run: `docker run -p 5000:5000 <your-dockerhub-username>/model_api`
 
-Your application is now running in a Docker container. You can access it on http://0.0.0.0:5000/api or whatever port you set it to.
+Your application is now running in a Docker container. You can access it on http://XX.XXX.XXX.XX:5000/api or whatever port you set it to.
 
 Run `docker push <your-dockerhub-username>/model_api` to push the image to your DockerHub account.

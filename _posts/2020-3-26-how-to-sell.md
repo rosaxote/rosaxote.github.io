@@ -2,6 +2,7 @@
 layout: post
 title: How to Sell
 published: true
+category: old
 ---
 
 {{ page.title }}

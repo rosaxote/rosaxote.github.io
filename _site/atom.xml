@@ -4,7 +4,7 @@
  <title>How to Make Stuff</title>
  <link href="http://asor12.github.io/atom.xml" rel="self"/>
  <link href="http://asor12.github.io/"/>
- <updated>2026-02-27T11:19:31-08:00</updated>
+ <updated>2026-02-27T12:41:28-08:00</updated>
  <id>http://asor12.github.io/</id>
  <author>
    <name>asor12</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>What would a remote world look like?</title>
-   <link href="http://asor12.github.io/2020/05/25/what-would-remote-world-look-like.html"/>
+   <link href="http://asor12.github.io/old/2020/05/25/what-would-remote-world-look-like.html"/>
    <updated>2020-05-25T00:00:00-07:00</updated>
-   <id>http://asor12.github.io/2020/05/25/what-would-remote-world-look-like</id>
+   <id>http://asor12.github.io/old/2020/05/25/what-would-remote-world-look-like</id>
    <content type="html">&lt;h1 id=&quot;what-would-a-remote-world-look-like&quot;&gt;What would a remote world look like?&lt;/h1&gt;
 
 &lt;p class=&quot;meta&quot;&gt;5.25.20 - San Francisco - R. Lin&lt;/p&gt;
@@ -105,9 +105,9 @@
  
  <entry>
    <title>How to Sell</title>
-   <link href="http://asor12.github.io/2020/03/26/how-to-sell.html"/>
+   <link href="http://asor12.github.io/old/2020/03/26/how-to-sell.html"/>
    <updated>2020-03-26T00:00:00-07:00</updated>
-   <id>http://asor12.github.io/2020/03/26/how-to-sell</id>
+   <id>http://asor12.github.io/old/2020/03/26/how-to-sell</id>
    <content type="html">&lt;h1 id=&quot;how-to-sell&quot;&gt;How to Sell&lt;/h1&gt;
 
 &lt;p class=&quot;meta&quot;&gt;3.26.20 - San Francisco - R. Lin&lt;/p&gt;
@@ -214,9 +214,9 @@ Sixth cut - 1 girl who likes their second date enough to go on a third one. → 
  
  <entry>
    <title>Deploy an App to Kubernetes (Digital Ocean)</title>
-   <link href="http://asor12.github.io/2020/03/25/deploy-app-kubernetes.html"/>
+   <link href="http://asor12.github.io/old/2020/03/25/deploy-app-kubernetes.html"/>
    <updated>2020-03-25T00:00:00-07:00</updated>
-   <id>http://asor12.github.io/2020/03/25/deploy-app-kubernetes</id>
+   <id>http://asor12.github.io/old/2020/03/25/deploy-app-kubernetes</id>
    <content type="html">&lt;h1 id=&quot;deploy-an-app-to-kubernetes-digital-ocean&quot;&gt;Deploy an App to Kubernetes (Digital Ocean)&lt;/h1&gt;
 
 &lt;p class=&quot;meta&quot;&gt;3.25.20 - San Francisco - R. Lin&lt;/p&gt;
@@ -305,16 +305,16 @@ spec:
 &lt;p&gt;Once it’s ready, it’ll list an External-IP address, like so:&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;NAME                 TYPE           CLUSTER-IP      EXTERNAL-IP       PORT(S)          AGE
-mordor-test-api    LoadBalancer   10.245.171.19   171.128.120.615   80:32101/TCP     33m
-isengard-test-api   LoadBalancer   10.245.80.198   134.203.143.165   6000:32206/TCP   5m19s
-kubernetes           ClusterIP      10.237.0.1      &amp;lt;none&amp;gt;            443/TCP          57m
+mordor-test-api    LoadBalancer   XX.XXX.XXX.XX   XX.XXX.XXX.XX   80:32101/TCP     33m
+isengard-test-api   LoadBalancer   XX.XXX.XXX.XX   XX.XXX.XXX.XX   6000:32206/TCP   5m19s
+kubernetes           ClusterIP      XX.XXX.XXX.XX      &amp;lt;none&amp;gt;            443/TCP          57m
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Go to the external IP address to see if your app is running.&lt;/p&gt;
 
 &lt;p&gt;For example, if your app is an API, call a request, say&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;curl -X GET &quot;http://134.203.143.165:6000/api&quot; -H &quot;Content-Type: application/json&quot; --data &apos;{&quot;message&quot;: [&quot;this house is red&quot;]}&apos;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;curl -X GET &quot;http://XX.XXX.XXX.XX:6000/api&quot; -H &quot;Content-Type: application/json&quot; --data &apos;{&quot;message&quot;: [&quot;this house is red&quot;]}&apos;&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;→ This should return a response, like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{&quot;ESTIMATE&quot;:&quot;No&quot;}&lt;/code&gt;.&lt;/p&gt;
 
@@ -377,7 +377,7 @@ Run
 
 &lt;p&gt;Then run: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker run -p 5000:5000 &amp;lt;your-dockerhub-username&amp;gt;/model_api&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Your application is now running in a Docker container. You can access it on http://0.0.0.0:5000/api or whatever port you set it to.&lt;/p&gt;
+&lt;p&gt;Your application is now running in a Docker container. You can access it on http://XX.XXX.XXX.XX:5000/api or whatever port you set it to.&lt;/p&gt;
 
 &lt;p&gt;Run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker push &amp;lt;your-dockerhub-username&amp;gt;/model_api&lt;/code&gt; to push the image to your DockerHub account.&lt;/p&gt;
 </content>

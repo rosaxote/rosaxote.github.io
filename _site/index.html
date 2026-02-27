@@ -2,9 +2,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>Making Stuff</title>
-   <meta name="author" content="Making Stuff" />
-   <link href="[link]" rel="alternate" title="How to Make Stuff" type="application/atom+xml" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>Rosaxote's World Atlas</title>
+   <meta name="author" content="Rosaxote's World Atlas" />
+   <link href="[link]" rel="alternate" title="Rosaxote's World Atlas" type="application/atom+xml" />
    <meta name="readability-verification" content="QCzSs992GxmRYRKVpPeZ6LE2tS8aYKxsSSQKV8YM"/>
 
    <!-- syntax highlighting CSS -->
@@ -12,7 +13,7 @@
 
    <!-- Homepage CSS -->
    <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection"/>
-  <link href="https://fonts.googleapis.com/css?family=Cardo|Libre+Franklin" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,700&family=Source+Code+Pro:wght@400;500&family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet">
 
    <!-- Typekit -->
    <script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script>
@@ -29,25 +30,37 @@ var WRInitTime=(new Date()).getTime();
 <div class="site">
   <div class="title">
     <a href="/">Rosaxote's World Atlas</a>
+    <a href="/about.html" class="about-link">/about</a>
   </div>
 
   <div id="home">
-  <h2>Blog Posts</h2>
+  <h2>Main posts</h2>
   <ul class="posts">
     
-      <li> <a href="/2020/05/25/what-would-remote-world-look-like.html">What would a remote world look like?</a>  &bull;  <span>25 May 2020</span> </li>
+      
     
-      <li> <a href="/2020/03/26/how-to-sell.html">How to Sell</a>  &bull;  <span>26 Mar 2020</span> </li>
+      
     
-      <li> <a href="/2020/03/25/deploy-app-kubernetes.html">Deploy an App to Kubernetes (Digital Ocean)</a>  &bull;  <span>25 Mar 2020</span> </li>
+      
     
   </ul>
 
-  <h2>Other</h2>
+  <h2>Old</h2>
   <ul class="posts">
-
+    
+      
+        <li> <a href="/old/2020/05/25/what-would-remote-world-look-like.html">What would a remote world look like?</a>  &bull;  <span>25 May 2020</span> </li>
+      
+    
+      
+        <li> <a href="/old/2020/03/26/how-to-sell.html">How to Sell</a>  &bull;  <span>26 Mar 2020</span> </li>
+      
+    
+      
+        <li> <a href="/old/2020/03/25/deploy-app-kubernetes.html">Deploy an App to Kubernetes (Digital Ocean)</a>  &bull;  <span>25 Mar 2020</span> </li>
+      
+    
   </ul>
-  
 </div>
 
 
@@ -89,6 +102,87 @@ var pageTracker = _gat._getTracker("UA-6016902-1");
 pageTracker._trackPageview();
 </script>
 <!-- Google Analytics end -->
+
+<script>
+(function() {
+  var copyIconSvg = '<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>';
+  var checkIconSvg = '<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>';
+
+  function copyToClipboard(text, btn, copyIcon, checkIcon) {
+    function showCopied() {
+      btn.innerHTML = checkIcon;
+      btn.setAttribute('aria-label', 'Copied!');
+      setTimeout(function() { btn.innerHTML = copyIcon; btn.setAttribute('aria-label', 'Copy code'); }, 1800);
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(showCopied);
+    } else {
+      var ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.position = 'fixed';
+      ta.style.left = '-9999px';
+      document.body.appendChild(ta);
+      ta.select();
+      try {
+        document.execCommand('copy');
+        showCopied();
+      } catch (e) {}
+      document.body.removeChild(ta);
+    }
+  }
+
+  function addCopyButtons() {
+    var pres = document.querySelectorAll('#post pre, #about pre');
+    pres.forEach(function(pre) {
+      if (pre.querySelector('.copy-btn')) return;
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'copy-btn';
+      btn.setAttribute('aria-label', 'Copy code');
+      btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>';
+      var copyIcon = btn.innerHTML;
+      var checkIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>';
+      pre.style.position = 'relative';
+      pre.appendChild(btn);
+      btn.addEventListener('click', function() {
+        var code = pre.querySelector('code');
+        var text = code ? code.innerText : (function() {
+          var clone = pre.cloneNode(true);
+          var b = clone.querySelector('.copy-btn');
+          if (b) b.remove();
+          return clone.innerText;
+        })();
+        copyToClipboard(text, btn, copyIcon, checkIcon);
+      });
+    });
+
+    var allCodes = document.querySelectorAll('#post code, #about code');
+    allCodes.forEach(function(code) {
+      if (code.closest('pre')) return;
+          if (code.closest('.inline-code-wrap')) return;
+      var wrap = document.createElement('span');
+      wrap.className = 'inline-code-wrap';
+      code.parentNode.insertBefore(wrap, code);
+      wrap.appendChild(code);
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'copy-btn copy-btn-inline';
+      btn.setAttribute('aria-label', 'Copy code');
+      btn.innerHTML = copyIconSvg;
+      wrap.appendChild(btn);
+      btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        copyToClipboard(code.innerText, btn, copyIconSvg, checkIconSvg);
+      });
+    });
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', addCopyButtons);
+  } else {
+    addCopyButtons();
+  }
+})();
+</script>
 
 </body>
 </html>
