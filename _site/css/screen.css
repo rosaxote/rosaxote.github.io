@@ -213,7 +213,7 @@ ul.posts {
 /*****************************************************************************/
 
 #post {
-
+  text-align: left;
 }
 
   #post h1,
@@ -299,22 +299,33 @@ ul.posts {
 
   #post .inline-code-wrap,
   #about .inline-code-wrap {
-    display: inline-block;
-    position: relative;
-    vertical-align: middle;
-    padding-right: 1.5em;
+    display: inline;
+  }
+
+  #post .inline-code-wrap code,
+  #about .inline-code-wrap code {
+    display: inline;
   }
 
   #post .copy-btn-inline,
   #about .copy-btn-inline {
-    position: absolute;
-    top: 50%;
-    right: 0.15em;
-    transform: translateY(-50%);
-    width: 1.25em;
-    height: 1.25em;
+    position: static;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1.2em;
+    height: 1.2em;
     min-width: 0;
-    padding: 0.15em;
+    padding: 0.1em;
+    margin-left: 0.2em;
+    background: #ddd;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  #post .copy-btn-inline:hover,
+  #about .copy-btn-inline:hover {
+    background: #e0e0e0;
   }
 
   #post .copy-btn-inline svg,
