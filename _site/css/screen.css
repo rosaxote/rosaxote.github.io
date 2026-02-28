@@ -168,6 +168,20 @@ ul.posts {
     color: #555;
   }
 
+  .site .title .title-links {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6em;
+  }
+
+  .site .title .dark-mode-toggle {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
   .site .meta {
     color: black;
     font-size: 80%;
@@ -382,6 +396,141 @@ ul.posts {
 
 /*****************************************************************************/
 /*
+/* Dark mode
+/*
+/*****************************************************************************/
+
+html.dark-mode body {
+  background-color: #1c1b19;
+}
+
+html.dark-mode .site {
+  background-color: #252422;
+}
+
+html.dark-mode .title,
+html.dark-mode .site .title a,
+html.dark-mode h1,
+html.dark-mode h2,
+html.dark-mode h3,
+html.dark-mode h4,
+html.dark-mode h5,
+html.dark-mode h6,
+html.dark-mode #home h2,
+html.dark-mode #post h1,
+html.dark-mode #post h2,
+html.dark-mode #post h3,
+html.dark-mode #post h4,
+html.dark-mode #post h5,
+html.dark-mode #post h6 {
+  color: #e0ddd9;
+}
+
+html.dark-mode .site .title > a {
+  color: #da9100;
+}
+
+html.dark-mode body,
+html.dark-mode p,
+html.dark-mode .site .meta,
+html.dark-mode ul.posts span {
+  color: #c9c6c2;
+}
+
+html.dark-mode a {
+  color: #e8b84a;
+}
+
+html.dark-mode a:visited {
+  color: #d4a03a;
+}
+
+html.dark-mode .site .title .about-link,
+html.dark-mode .site .title .dark-mode-toggle {
+  color: #8a8784;
+}
+
+html.dark-mode .site .title .about-link:hover,
+html.dark-mode .site .title .dark-mode-toggle:hover {
+  color: #e0ddd9;
+}
+
+html.dark-mode .site .footer,
+html.dark-mode .site .footer a {
+  color: #6b6966;
+  border-top-color: #3a3937;
+}
+
+html.dark-mode .site .block {
+  border-color: #3a3937;
+  background-color: #2e2d2b;
+}
+
+html.dark-mode #post strong em,
+html.dark-mode #post em strong,
+html.dark-mode #about strong em,
+html.dark-mode #about em strong {
+  color: #e8b84a;
+}
+
+html.dark-mode #post pre,
+html.dark-mode #post .highlight pre,
+html.dark-mode #about pre {
+  border-color: #3a3937;
+  background-color: #2e2d2b;
+}
+
+html.dark-mode #post code {
+  border-color: #3a3937;
+  background-color: #2e2d2b;
+  color: #e0ddd9;
+}
+
+html.dark-mode #post .copy-btn,
+html.dark-mode #about .copy-btn,
+html.dark-mode #post .copy-btn-inline,
+html.dark-mode #about .copy-btn-inline {
+  background: #3a3937;
+  color: #e0ddd9;
+  border-color: #4a4947;
+}
+
+html.dark-mode #post .copy-btn:hover,
+html.dark-mode #about .copy-btn:hover,
+html.dark-mode #post .copy-btn-inline:hover,
+html.dark-mode #about .copy-btn-inline:hover {
+  background: #4a4947;
+}
+
+html.dark-mode #post pre.terminal,
+html.dark-mode #post .highlight pre.terminal {
+  border-color: #1c1b19;
+  background-color: #1c1b19;
+}
+
+html.dark-mode #post pre.terminal code,
+html.dark-mode #post .highlight pre.terminal code {
+  background-color: #1c1b19;
+}
+
+html.dark-mode #post pre.terminal .copy-btn,
+html.dark-mode #about pre.terminal .copy-btn {
+  background: #4a4947;
+  color: #e0ddd9;
+  border-color: #3a3937;
+}
+
+html.dark-mode sup {
+  color: #8a8784;
+}
+
+html.dark-mode #post img,
+html.dark-mode #about img {
+  filter: brightness(0.80);
+}
+
+/*****************************************************************************/
+/*
 /* Responsive: tablet and mobile
 /*
 /*****************************************************************************/
@@ -419,7 +568,7 @@ ul.posts {
     gap: 0.25em;
   }
 
-  .site .title .about-link {
+  .site .title .title-links {
     flex: 1 1 100%;
     text-align: right;
   }

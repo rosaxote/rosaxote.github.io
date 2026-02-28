@@ -3,6 +3,13 @@
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <script>
+     (function() {
+       if (localStorage.getItem('darkMode') === '1') {
+         document.documentElement.classList.add('dark-mode');
+       }
+     })();
+   </script>
    <title>How to Sell</title>
    <meta name="author" content="Rosaxote's World Atlas" />
    <link href="https://rosaxote.github.io/atom.xml" rel="alternate" title="Rosaxote's World Atlas" type="application/atom+xml" />
@@ -30,7 +37,10 @@ var WRInitTime=(new Date()).getTime();
 <div class="site">
   <div class="title">
     <a href="/">Rosaxote's World Atlas</a>
-    <a href="/about.html" class="about-link">/about</a>
+    <span class="title-links">
+      <a href="/about.html" class="about-link">/about</a>
+      <button type="button" class="about-link dark-mode-toggle" id="dark-mode-toggle" aria-label="Toggle dark mode">/dark</button>
+    </span>
   </div>
 
   <div id="post">
@@ -40,7 +50,7 @@ var WRInitTime=(new Date()).getTime();
 
 <p>Once upon a time, about two years ago, as I embarked on this startup journey, I was a green sprout with nary a sale to my name, completely naive and unencumbered as to what enterprise constituted, what was a funnel, how to lead a discovery call, what it meant to qualify, how to close a deal. Like many technical folks out there who all their lives thought to let the result, the product, the art speak for itself, I had no experience in having to chase down people and ask them to part with money. And while letting the product speak for itself can work to some extent in consumer-facing sales, it’s quite another in business-facing deals (aka business-to-business, B2B sales).</p>
 
-<p>So while there is still much to learn and experience, to try and to rail and to win, let me do my bit to pass on what wisdom I’ve accumulated these past two years to you, fellow internet reader.</p>
+<p>So while there is still much to learn and experience, to try and to rail and to win, let me do my bit to pass on what wisdom I’ve accumulated these past two years to you, dear reader.</p>
 
 <h3 id="sales">Sales</h3>
 
@@ -269,6 +279,22 @@ pageTracker._trackPageview();
   } else {
     addCopyButtons();
   }
+})();
+</script>
+
+<script>
+(function() {
+  var toggle = document.getElementById('dark-mode-toggle');
+  if (!toggle) return;
+  function updateLabel() {
+    toggle.textContent = document.documentElement.classList.contains('dark-mode') ? '/light' : '/dark';
+  }
+  updateLabel();
+  toggle.addEventListener('click', function() {
+    document.documentElement.classList.toggle('dark-mode');
+    localStorage.setItem('darkMode', document.documentElement.classList.contains('dark-mode') ? '1' : '0');
+    updateLabel();
+  });
 })();
 </script>
 

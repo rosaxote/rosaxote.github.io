@@ -3,6 +3,13 @@
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <script>
+     (function() {
+       if (localStorage.getItem('darkMode') === '1') {
+         document.documentElement.classList.add('dark-mode');
+       }
+     })();
+   </script>
    <title>Optimal Stopping, Romantic Pursuits, and Why not 37%?</title>
    <meta name="author" content="Rosaxote's World Atlas" />
    <link href="https://rosaxote.github.io/atom.xml" rel="alternate" title="Rosaxote's World Atlas" type="application/atom+xml" />
@@ -30,7 +37,10 @@ var WRInitTime=(new Date()).getTime();
 <div class="site">
   <div class="title">
     <a href="/">Rosaxote's World Atlas</a>
-    <a href="/about.html" class="about-link">/about</a>
+    <span class="title-links">
+      <a href="/about.html" class="about-link">/about</a>
+      <button type="button" class="about-link dark-mode-toggle" id="dark-mode-toggle" aria-label="Toggle dark mode">/dark</button>
+    </span>
   </div>
 
   <div id="post">
@@ -47,7 +57,9 @@ var WRInitTime=(new Date()).getTime();
   <li>Interview that many people (this is your benchmark), then take the next best candidate</li>
 </ol>
 
-<p>(Another variation takes the square root of N.)(Bear with, this will tie in with romantic pursuits soon enough.)</p>
+<p>(Another variation takes the square root of N.)</p>
+
+<p>(Bear with, this will tie in with romantic pursuits soon enough.)</p>
 
 <p>So for example, say you estimate you’ll have 20 candidates. Since 20/e = 7.3, this means you should interview and reject 7 randomly selected candidates, then accept the next best one.</p>
 
@@ -69,17 +81,19 @@ var WRInitTime=(new Date()).getTime();
 
 <p><img src="/images/marriage_graph.png" alt="Marriage Graph" /></p>
 
-<p>And what do you know, this is borne out from real-life data (see above). In fact, the age has been trending upwards over time (though who knows what it’ll be like now post-pandemic). Why has it trended upwards? What has changed over the decades?</p>
+<p>And what do you know, this is borne out in real-life data (see above). In fact, the age has been trending upwards over time (though who knows what it’ll be like now post-pandemic). Why has it trended upwards? What has changed over the decades?</p>
 
 <p>Well, simply, N got larger – people met more people as ever larger cohorts went to college, grad school, did internships, and hopped jobs.</p>
 
 <p>In my personal life, I also met my husband at age 28. I think the brain has a subconscious running clock!</p>
 
-<h3 id="why-not-37">Why Not 37%</h3>
+<h3 id="why-not-37">Why Not 37%?</h3>
 
-<p>In both Schelling’s model and the Secretary Problem, a tipping point is reached around &gt;30% – the board starts segregating, you start to risk missing out on great candidates. So why not a 30%, 37% rule? Why <a href="https://rosaxote.github.io/main/2025/10/14/60-percent.html">60%</a>?</p>
+<p>In both Schelling’s model and the Secretary Problem, a tipping point is reached around ~30% – the board starts segregating, you start to risk missing out on great candidates. So why not a 30% or 37% rule? Why <a href="https://rosaxote.github.io/main/2025/10/14/60-percent.html">60%</a>?</p>
 
-<p>Well, in real life, 37% is certainly possible, but it is a low bar and ought to be taken only at the hinder end of resorts. You’ll be exposed to jobs/people/environments only satisfying a third of your desires for some period of time. With a ~60% tolerance threshold, the board still converges to a segregated state in a reasonable time, but with smaller exposure to unwanted elements. Basically, 60-65% is roughly the the closest you can push the threshold before you start crossing into ‘perfection’ territory, where your board is less likely to settle.</p>
+<p>Well, in real life, ~37% is certainly possible, but it is a low bar and ought to be taken only at the hinder end of resorts. You’ll be exposed to jobs/people/environments only satisfying a third of your desires for some period of time. With a ~60% tolerance threshold, the board still converges to a segregated state in a reasonable time, but with smaller exposure to unwanted elements. Basically, 60-65% is roughly the the closest you can push the threshold before you start crossing into ‘perfection’ territory, where your board is less likely to settle.</p>
+
+<p>So that’s my heuristic for main life decisions!</p>
 
 </div>
 
@@ -214,6 +228,22 @@ pageTracker._trackPageview();
   } else {
     addCopyButtons();
   }
+})();
+</script>
+
+<script>
+(function() {
+  var toggle = document.getElementById('dark-mode-toggle');
+  if (!toggle) return;
+  function updateLabel() {
+    toggle.textContent = document.documentElement.classList.contains('dark-mode') ? '/light' : '/dark';
+  }
+  updateLabel();
+  toggle.addEventListener('click', function() {
+    document.documentElement.classList.toggle('dark-mode');
+    localStorage.setItem('darkMode', document.documentElement.classList.contains('dark-mode') ? '1' : '0');
+    updateLabel();
+  });
 })();
 </script>
 

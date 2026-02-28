@@ -3,6 +3,13 @@
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <script>
+     (function() {
+       if (localStorage.getItem('darkMode') === '1') {
+         document.documentElement.classList.add('dark-mode');
+       }
+     })();
+   </script>
    <title>60 Percent Rule</title>
    <meta name="author" content="Rosaxote's World Atlas" />
    <link href="https://rosaxote.github.io/atom.xml" rel="alternate" title="Rosaxote's World Atlas" type="application/atom+xml" />
@@ -30,7 +37,10 @@ var WRInitTime=(new Date()).getTime();
 <div class="site">
   <div class="title">
     <a href="/">Rosaxote's World Atlas</a>
-    <a href="/about.html" class="about-link">/about</a>
+    <span class="title-links">
+      <a href="/about.html" class="about-link">/about</a>
+      <button type="button" class="about-link dark-mode-toggle" id="dark-mode-toggle" aria-label="Toggle dark mode">/dark</button>
+    </span>
   </div>
 
   <div id="post">
@@ -64,13 +74,13 @@ var WRInitTime=(new Date()).getTime();
 
 <p>But even final segregation was a marker of some tolerance: at high (75%+) intolerance, the ‘board’ would never settle – people would just keep moving.</p>
 
-<h3 id="how-this-applies-to-career">How This Applies to Career</h3>
+<h3 id="how-this-applies-to-careers">How This Applies to Careers</h3>
 
-<p>My main takeaway from this, as a young adult freshly unleashed on the world, was that reaching my goals was an iterative process. Even if I did just some things right, but not all, over time I would get closer to my goals.</p>
+<p>My main takeaway from this, in my early 20s, was that reaching my goals was an iterative process. Even if I did just some things right, but not all, over time I would get closer to my goals – regardless of where I start.</p>
 
 <p>Thus, when looking at jobs to apply for, I did not seek perfection. I simply sought something that met ~60% of my aims.</p>
 
-<p>This also applied to startup ideas, when I eventually started my own company at age 27. Artificial intelligence (AI) was still nebulous back then – a lot of tech was there and being used by the tech giants, but how it applied outside tech was still an open question. But it was a growing, exciting field, and that was good enough for me. So I started an AI company, and entered the YCombinator Winter 2018 batch soon after.</p>
+<p>This also applied to startup ideas, as when I eventually started my own company at age 27, back in 2017. Artificial intelligence (AI) was still nebulous back then – a lot of tech was there and being used by the tech giants, but how it applied outside tech was still an open question. But it was a growing, exciting field, and that was good enough for me. So I started an AI company, and entered the YCombinator Winter 2018 batch soon after.</p>
 
 <p>But you might still be asking, why ~60%? Why not something lower, <a href="https://rosaxote.github.io/main/2026/02/27/optimal-stopping.html">like 37%</a>?</p>
 
@@ -207,6 +217,22 @@ pageTracker._trackPageview();
   } else {
     addCopyButtons();
   }
+})();
+</script>
+
+<script>
+(function() {
+  var toggle = document.getElementById('dark-mode-toggle');
+  if (!toggle) return;
+  function updateLabel() {
+    toggle.textContent = document.documentElement.classList.contains('dark-mode') ? '/light' : '/dark';
+  }
+  updateLabel();
+  toggle.addEventListener('click', function() {
+    document.documentElement.classList.toggle('dark-mode');
+    localStorage.setItem('darkMode', document.documentElement.classList.contains('dark-mode') ? '1' : '0');
+    updateLabel();
+  });
 })();
 </script>
 
