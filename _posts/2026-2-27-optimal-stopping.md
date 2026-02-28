@@ -34,7 +34,7 @@ Supposing that you date people sequentially (notwithstanding the few I have know
 
 So, when should you settle down?
 
-Well, assuming that most people want to settle down by their mid-30s or thereabouts (and thus stop entertaining candidates then), and that you can reasonably assume a steady pipeline of candidates until then ... then most people should start seriously looking at around age 26-28. 
+Well, assuming that most people want to settle down by their mid-30s or thereabouts (and thus stop entertaining candidates then), and that you can reasonably assume a steady pipeline of candidates until that time ... then most people should start seriously looking at around age 26-28. 
 
 At this point, you would've reasonably met about 37% of the candidates you'd ever meet, if you started looking around 22 (at college graduation). 
 
