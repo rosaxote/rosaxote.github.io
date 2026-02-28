@@ -23,19 +23,19 @@ html, body {
 
 body {
   background-color: #f4f0eb;
-  font: 16px 'Zen Maru Gothic', sans-serif;
+  font: 17px 'Zen Maru Gothic', sans-serif;
   *font-size: small;
   text-align: center;
 }
 
 h5, h6 {
-  font-size: 120%;
+  font-size: 113%;
   font-family: 'Lora', serif;
   color: #444;
 }
 
 h4 {
-  font-size: 130%;
+  font-size: 122%;
   font-family: 'Lora', serif;
   padding-top: 12px;
   font-style: italic;
@@ -43,28 +43,28 @@ h4 {
 }
 
 h3 {
-  font-size: 130%;
+  font-size: 122%;
   font-family: 'Lora', serif;
   padding-top: 12px;
   color: #444;
 }
 
 h2 {
-  font-size: 140%;
+  font-size: 132%;
   font-family: 'Lora', serif;
   padding-bottom: 8px;
   color: #444;
 }
 
 h1 {
-  font-size: 160%;
+  font-size: 151%;
   font-family: 'Lora', serif;
   color: #444;
 }
 
 p {
   margin: 1em 0;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 a {
@@ -135,10 +135,10 @@ ul.posts {
   font-size: 100%;
   text-align: justify;
   width: 100%;
-  max-width: calc(45em + 24em);
+  max-width: calc(42.35em + 22.5em);
   min-height: 100vh;
   margin: 0 auto;
-  padding: 3em 12em 2em 12em;
+  padding: 3em 11.25em 2em 11.25em;
   line-height: 1.75em;
   background-color: #fcf7f4;
 }
@@ -193,7 +193,7 @@ ul.posts {
 
   .site .meta {
     color: black;
-    font-size: 80%;
+    font-size: 90%;
     font-style: italic;
     margin-top: 5px;
     margin-bottom: 25px;
@@ -224,15 +224,42 @@ ul.posts {
         color: #c8c5c4;
       }
 
-    .site .footer .rss {
+    .site .footer .footer-row {
       margin-top: 1.1em;
-      margin-right: .1em;
-      float: right;
+      display: flex;
+      align-items: baseline;
+      gap: 1em;
     }
 
-      .site .footer .rss img {
-        border: 0;
-      }
+    .site .footer .footer-spacer {
+      flex: 1;
+    }
+
+    .site .footer .footer-spacer-right {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .site .footer .footer-copyright {
+      flex-shrink: 0;
+      color: inherit;
+      font-size: inherit;
+    }
+
+    .site .footer .footer-row .rss {
+      flex-shrink: 0;
+      color: inherit;
+      font-size: inherit;
+      text-decoration: none;
+    }
+
+    .site .footer .footer-row .rss:hover {
+      color: inherit;
+    }
+
+    .site .footer .rss img {
+      border: 0;
+    }
 
 /*****************************************************************************/
 /*
@@ -483,7 +510,7 @@ html.dark-mode #post strong em,
 html.dark-mode #post em strong,
 html.dark-mode #about strong em,
 html.dark-mode #about em strong {
-  color: #da9100;
+  color: #e8b84a;
 }
 
 html.dark-mode #post pre,
@@ -564,7 +591,7 @@ html.dark-mode #about img {
 /* Phone */
 @media (max-width: 480px) {
   body {
-    font-size: 16px;
+    font-size: 17px;
     text-align: left;
   }
 
@@ -591,7 +618,7 @@ html.dark-mode #about img {
   }
 
   .site .footer .contact,
-  .site .footer .rss {
+  .site .footer .footer-row {
     float: none;
     margin: 0.5em 0;
   }

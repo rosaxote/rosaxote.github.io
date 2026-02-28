@@ -26,4 +26,12 @@ published: true
       {% endif %}
     {% endfor %}
   </ul>
+  <h2>Really Old</h2>
+  <ul class="posts">
+    {% for post in site.posts %}
+      {% if post.category == "really-old" %}
+        <li> <a href="{{ post.url }}">{{ post.title }}</a>  &bull;  <span>{{ post.date | date_to_string }}</span> </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
 </div>
