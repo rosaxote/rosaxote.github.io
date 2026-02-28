@@ -3,7 +3,6 @@ layout: default
 title: Rosaxote's World Atlas
 published: true
 ---
-
 <div id="home">
   <h2>Main posts</h2>
   <ul class="posts">
@@ -13,7 +12,12 @@ published: true
       {% endif %}
     {% endfor %}
   </ul>
-
+  <h2>Upcoming</h2>
+  <ul class="posts upcoming-list">
+    {% for item in site.data.upcoming %}
+      <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
   <h2>Old</h2>
   <ul class="posts">
     {% for post in site.posts %}

@@ -116,6 +116,15 @@ ul.posts {
     font-style: italic;
   }
 
+  ul.posts.upcoming-list {
+    list-style-type: disc;
+    padding-left: 1.35em;
+  }
+
+  ul.posts.upcoming-list li {
+    color: #777;
+  }
+
 /*****************************************************************************/
 /*
 /* Site
@@ -142,7 +151,7 @@ ul.posts {
   font-style: italic;
   color: #444;
   font-weight: 700;
-  margin-top: 4em;
+  margin-top: 3em;
   margin-bottom: 2em;
   font-size: 220%;
 }
@@ -437,6 +446,10 @@ html.dark-mode ul.posts span {
   color: #c9c6c2;
 }
 
+html.dark-mode ul.posts.upcoming-list li {
+  color: #b8b5b0;
+}
+
 html.dark-mode a {
   color: #e8b84a;
 }
@@ -470,7 +483,7 @@ html.dark-mode #post strong em,
 html.dark-mode #post em strong,
 html.dark-mode #about strong em,
 html.dark-mode #about em strong {
-  color: #e8b84a;
+  color: #da9100;
 }
 
 html.dark-mode #post pre,
