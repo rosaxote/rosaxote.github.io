@@ -157,16 +157,21 @@ ul.posts {
 }
 
   .site .title .title-and-tagline {
-    display: flex;
-    flex-direction: column;
-    gap: 0.15em;
+    display: block;
+    min-width: 0;
+  }
+
+  .site .title .title-and-tagline > a {
+    display: block;
   }
 
   .site .title .title-tagline {
-    font-size: 0.45em;
+    display: block;
+    font-size: 1rem;
     font-weight: normal;
     font-style: normal;
     color: #777;
+    margin-top: 0.2em;
   }
 
   .site .title .title-tagline-icon {
