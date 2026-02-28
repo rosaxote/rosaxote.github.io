@@ -15,14 +15,14 @@ Schelling's Model of Segregation dovetails with another famous problem in Game T
 
 Game theorists came up with the following solution:
 1. Estimate how many people you could potentially interview in the future (N)
-2. Take a sample size N/e, where e = Euler’s constant ~2.7
+2. Take a sample size N/*e*, where *e* = Euler’s constant ~2.7
 3. Interview that many people (this is your benchmark), then take the next best candidate 
 
 (Another variation takes the square root of N.)
 
 (Bear with, this will tie in with romantic pursuits soon enough.)
 
-So for example, say you estimate you'll have 20 candidates. Since 20/e = 7.3, this means you should interview and reject 7 randomly selected candidates, then accept the next best one.
+So for example, say you estimate you'll have 20 candidates. Since 20/*e* = 7.3, this means you should interview and reject 7 randomly selected candidates, then accept the next best one.
 
 ![Optimal Stopping](/images/optimal_stopping.png)
 
@@ -53,8 +53,8 @@ In my personal life, I also met my husband at age 28. I think the brain has a su
 
 In both Schelling's model and the Secretary Problem, a tipping point is reached around ~30% -- the board starts segregating, you start to risk missing out on great candidates. So why not a 30% or 37% rule? Why [60%](https://rosaxote.github.io/main/2025/10/14/60-percent.html)? 
 
-Well, in real life, ~37% is certainly possible, but it is a low bar and ought to be taken only at the hinder end of resorts. You'll be exposed to jobs/people/environments only satisfying a third of your desires for some period of time. With a ~60% tolerance threshold, the board still converges to a segregated state in a reasonable time, but with smaller exposure to unwanted elements. Basically, 60-65% is roughly the the closest you can push the threshold before you start crossing into 'perfection' territory, where your board is less likely to settle.
+Well, in real life, ~37% is certainly possible, but it is a low bar and ought to be taken only at the hinder end of resorts. You'll be exposed to jobs/people/environments only satisfying a third of your desires for some period of time. With a ~60% tolerance threshold, the board still converges to a segregated state in a reasonable time, but with less exposure to unwanted elements. Basically, 60-65% is roughly the the closest you can push the threshold before you start crossing into 'perfection' territory, where your board is less likely to settle.
 
-So that's my heuristic for main life decisions!
+So that's my heuristic for life decisions!
 
-PS. Euler's constant e is a very fascinating number. It's intimately tied with growth and I believe existence/nonexistence. More on this another time!
+PS. Euler's constant *e* is a very fascinating number. It's intimately tied with growth and I believe existence/nonexistence. More on this another time!

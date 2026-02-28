@@ -156,6 +156,36 @@ ul.posts {
   font-size: 220%;
 }
 
+  .site .title .title-and-tagline {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15em;
+  }
+
+  .site .title .title-tagline {
+    font-size: 0.45em;
+    font-weight: normal;
+    font-style: normal;
+    color: #777;
+  }
+
+  .site .title .title-tagline-icon {
+    display: inline-flex;
+    align-items: center;
+    vertical-align: -0.15em;
+  }
+
+  .site .title .title-tagline-icon svg {
+    color: inherit;
+  }
+
+  .site .title .title-tagline-globe {
+    height: 1em;
+    width: auto;
+    vertical-align: -0.2em;
+    opacity: 0.75;
+  }
+
   .site .title a {
     color: #444;
     text-decoration: none;
@@ -462,8 +492,17 @@ html.dark-mode #post h6 {
   color: #e0ddd9;
 }
 
-html.dark-mode .site .title > a {
+html.dark-mode .site .title .title-and-tagline > a {
   color: #da9100;
+}
+
+html.dark-mode .site .title .title-tagline {
+  color: #b8b5b0;
+}
+
+html.dark-mode .site .title .title-tagline-globe {
+  filter: invert(1);
+  opacity: 0.85;
 }
 
 html.dark-mode body,

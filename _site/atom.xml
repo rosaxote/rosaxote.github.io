@@ -4,7 +4,7 @@
  <title>Rosaxote's World Atlas</title>
  <link href="https://rosaxote.github.io/atom.xml" rel="self"/>
  <link href="https://rosaxote.github.io/"/>
- <updated>2026-02-28T00:06:11-08:00</updated>
+ <updated>2026-02-28T07:50:55-08:00</updated>
  <id>https://rosaxote.github.io/</id>
  <author>
    <name>Rosaxote</name>
@@ -26,7 +26,7 @@
 &lt;p&gt;Game theorists came up with the following solution:&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;Estimate how many people you could potentially interview in the future (N)&lt;/li&gt;
-  &lt;li&gt;Take a sample size N/e, where e = Euler’s constant ~2.7&lt;/li&gt;
+  &lt;li&gt;Take a sample size N/&lt;em&gt;e&lt;/em&gt;, where &lt;em&gt;e&lt;/em&gt; = Euler’s constant ~2.7&lt;/li&gt;
   &lt;li&gt;Interview that many people (this is your benchmark), then take the next best candidate&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -34,7 +34,7 @@
 
 &lt;p&gt;(Bear with, this will tie in with romantic pursuits soon enough.)&lt;/p&gt;
 
-&lt;p&gt;So for example, say you estimate you’ll have 20 candidates. Since 20/e = 7.3, this means you should interview and reject 7 randomly selected candidates, then accept the next best one.&lt;/p&gt;
+&lt;p&gt;So for example, say you estimate you’ll have 20 candidates. Since 20/&lt;em&gt;e&lt;/em&gt; = 7.3, this means you should interview and reject 7 randomly selected candidates, then accept the next best one.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/optimal_stopping.png&quot; alt=&quot;Optimal Stopping&quot; /&gt;&lt;/p&gt;
 
@@ -64,11 +64,11 @@
 
 &lt;p&gt;In both Schelling’s model and the Secretary Problem, a tipping point is reached around ~30% – the board starts segregating, you start to risk missing out on great candidates. So why not a 30% or 37% rule? Why &lt;a href=&quot;https://rosaxote.github.io/main/2025/10/14/60-percent.html&quot;&gt;60%&lt;/a&gt;?&lt;/p&gt;
 
-&lt;p&gt;Well, in real life, ~37% is certainly possible, but it is a low bar and ought to be taken only at the hinder end of resorts. You’ll be exposed to jobs/people/environments only satisfying a third of your desires for some period of time. With a ~60% tolerance threshold, the board still converges to a segregated state in a reasonable time, but with smaller exposure to unwanted elements. Basically, 60-65% is roughly the the closest you can push the threshold before you start crossing into ‘perfection’ territory, where your board is less likely to settle.&lt;/p&gt;
+&lt;p&gt;Well, in real life, ~37% is certainly possible, but it is a low bar and ought to be taken only at the hinder end of resorts. You’ll be exposed to jobs/people/environments only satisfying a third of your desires for some period of time. With a ~60% tolerance threshold, the board still converges to a segregated state in a reasonable time, but with less exposure to unwanted elements. Basically, 60-65% is roughly the the closest you can push the threshold before you start crossing into ‘perfection’ territory, where your board is less likely to settle.&lt;/p&gt;
 
-&lt;p&gt;So that’s my heuristic for main life decisions!&lt;/p&gt;
+&lt;p&gt;So that’s my heuristic for life decisions!&lt;/p&gt;
 
-&lt;p&gt;PS. Euler’s constant e is a very fascinating number. It’s intimately tied with growth and I believe existence/nonexistence. More on this another time!&lt;/p&gt;
+&lt;p&gt;PS. Euler’s constant &lt;em&gt;e&lt;/em&gt; is a very fascinating number. It’s intimately tied with growth and I believe existence/nonexistence. More on this another time!&lt;/p&gt;
 </content>
  </entry>
  
@@ -115,7 +115,9 @@
 
 &lt;p&gt;This also applied to startup ideas, as when I eventually started my own company at age 27, back in 2017. Artificial intelligence (AI) was still nebulous back then – a lot of tech was there and being used by the tech giants, but how it applied outside tech was still an open question. But it was a growing, exciting field, and that was good enough for me. So I started an AI company, and entered the YCombinator Winter 2018 batch soon after.&lt;/p&gt;
 
-&lt;p&gt;But you might still be asking, why ~60%? Why not something lower, &lt;a href=&quot;https://rosaxote.github.io/main/2026/02/27/optimal-stopping.html&quot;&gt;like 37%&lt;/a&gt;?&lt;/p&gt;
+&lt;p&gt;(Note. The 60% rule can also apply to people and cofounders – but you’re acknowledging that it’ll be an iterative process.)&lt;/p&gt;
+
+&lt;p&gt;But you might still ask, why ~60%? Why not something lower, &lt;a href=&quot;https://rosaxote.github.io/main/2026/02/27/optimal-stopping.html&quot;&gt;like 37%&lt;/a&gt;?&lt;/p&gt;
 </content>
  </entry>
  
