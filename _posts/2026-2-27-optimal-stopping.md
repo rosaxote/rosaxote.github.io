@@ -49,6 +49,6 @@ In my personal life, I also met my husband at age 28. I think the brain has a su
 
 ### Why Not 37% 
 
-In both Schelling's model, the board starts segregating when the tolerance reaches the 30%+ threshold. So why not a 30%, 37% rule? Why 60%? 
+In both Schelling's model, the board starts segregating when the tolerance reaches the 30%+ threshold. So why not a 30%, 37% rule? Why [60%](https://rosaxote.github.io/main/2025/10/14/60-percent.html)? 
 
 Well, 37% is certainly possible, but it is a low bar and ought to be taken only at the hinder end of resorts. You'll be exposed to jobs/people/environments only satisfying a third of your desires, for a period of time. With a ~60% tolerance threshold, the board still converges to a segregated state in a reasonable time, but with smaller exposure to unwanted elements. Basically, it's roughly the the closest you can push the threshold before you start crossing into 'perfection' territory, where your board is less likely to settle.
