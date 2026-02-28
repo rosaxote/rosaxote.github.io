@@ -3,7 +3,7 @@
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1" />
-   <title>Rosaxote's World Atlas</title>
+   <title>Optimal Stopping, Romantic Pursuits, and Why not 37%?</title>
    <meta name="author" content="Rosaxote's World Atlas" />
    <link href="https://rosaxote.github.io/atom.xml" rel="alternate" title="Rosaxote's World Atlas" type="application/atom+xml" />
    <meta name="readability-verification" content="QCzSs992GxmRYRKVpPeZ6LE2tS8aYKxsSSQKV8YM"/>
@@ -33,44 +33,65 @@ var WRInitTime=(new Date()).getTime();
     <a href="/about.html" class="about-link">/about</a>
   </div>
 
-  <div id="home">
-  <h2>Main posts</h2>
-  <ul class="posts">
-    
-      
-        <li> <a href="/main/2026/02/27/optimal-stopping.html">Optimal Stopping, Romantic Pursuits, and Why not 37%?</a>  &bull;  <span>27 Feb 2026</span> </li>
-      
-    
-      
-        <li> <a href="/main/2025/10/14/60-percent.html">60 Percent Rule</a>  &bull;  <span>14 Oct 2025</span> </li>
-      
-    
-      
-    
-      
-    
-      
-    
-  </ul>
+  <div id="post">
+<h1 id="optimal-stopping-romantic-pursuits-and-why-not-37">Optimal Stopping, Romantic Pursuits, and Why not 37%?</h1>
 
-  <h2>Old</h2>
+<p class="meta">2.27.26 - SF Bay area</p>
+
+<p>Schelling’s Model of Segregation dovetails with another famous problem in Game Theory, the Secretary Problem. Basically, the premise is: suppose you had to interview a line of secretaries sequentially (this problem was formulated in the 1950s and ’60s), and must accept or reject them on the spot, with no ability to backtrack. If you’ve rejected everyone by the end, you must select the last applicant. How do you optimize for selecting the best candidate?</p>
+
+<p>Game theorists came up with the following solution:</p>
+<ol>
+  <li>Estimate how many people you could potentially interview in the future (N)</li>
+  <li>Take a sample size N/e, where e = Euler’s constant ~2.7</li>
+  <li>Interview that many people (this is your benchmark), then take the next best candidate</li>
+</ol>
+
+<p>(Another variation takes the square root of N.)(Bear with, this will tie in with romantic pursuits soon enough.)</p>
+
+<p>So for example, say you estimate you’ll have 20 candidates. Since 20/e = 7.3, this means you should interview and reject 7 randomly selected candidates, then accept the next best one.</p>
+
+<p><img src="/images/optimal_stopping.png" alt="Optimal Stopping" /></p>
+
+<p>You’ll find that the optimal place to stop hovers around 37% of your sample size. This also happens to be roughly the low end of the tolerance range for segregation to start happening in Schelling’s model – ergo, when forces align to reach a state (goal) rather than random distribution.</p>
+
+<p>What’s a real-world corollary of the Secretary Problem? Why, marriage, of course!</p>
+
+<h3 id="marriage">Marriage</h3>
+
+<p>Supposing that you date people sequentially (notwithstanding the few I have known with prodigious logistical skills), and that anyone you reject may be testy to re-receive your advances, the quest to find a life partner is very much like the Secretary Problem.</p>
+
+<p>So, when should you settle down?</p>
+
+<p>Well, assuming that most people want to settle down by their mid-30s or thereabouts (and thus stop entertaining candidates then), and that you can reasonably assume a steady pipeline of candidates until then … then most people should start seriously looking at around age 26-28.</p>
+
+<p>At this point, you would’ve reasonably met about 37% of the candidates you’d ever meet, if you started looking around 22 (at college graduation).</p>
+
+<p><img src="/images/marriage_graph.png" alt="Marriage Graph" /></p>
+
+<p>And what do you know, this is borne out from real-life date (see above). In fact, the age has been trending upwards over time (though who knows what it’ll be like now post-pandemic). Why has it trended upwards? What has changed over the decades?</p>
+
+<p>Well, simply, N got larger – people met more people as ever larger cohorts went to college, grad school, did internships, and hopped jobs.</p>
+
+<p>In my personal life, I also met my husband at age 28. I think the brain has a subconscious running clock!</p>
+
+<h3 id="why-not-37">Why Not 37%</h3>
+
+<p>In both Schelling’s model, the board starts segregating when the tolerance reaches the 30%+ threshold. So why not a 30%, 37% rule? Why 60%?</p>
+
+<p>Well, 37% is certainly possible, but it is a low bar and ought to be taken only at the hinder end of resorts. You’ll be exposed to jobs/people/environments only satisfying a third of your desires, for a period of time. With a ~60% tolerance threshold, the board still converges to a segregated state in a reasonable time, but with smaller exposure to unwanted elements. Basically, it’s roughly the the closest you can push the threshold before you start crossing into ‘perfection’ territory, where your board is less likely to settle.</p>
+
+</div>
+
+<div id="related">
+  <h4>Related Posts</h4>
   <ul class="posts">
     
-      
+      <li><span>14 Oct 2025</span> &raquo; <a href="/main/2025/10/14/60-percent.html">60 Percent Rule</a></li>
     
-      
+      <li><span>25 May 2020</span> &raquo; <a href="/old/2020/05/25/what-would-remote-world-look-like.html">What would a remote world look like?</a></li>
     
-      
-        <li> <a href="/old/2020/05/25/what-would-remote-world-look-like.html">What would a remote world look like?</a>  &bull;  <span>25 May 2020</span> </li>
-      
-    
-      
-        <li> <a href="/old/2020/03/26/how-to-sell.html">How to Sell</a>  &bull;  <span>26 Mar 2020</span> </li>
-      
-    
-      
-        <li> <a href="/old/2020/03/25/deploy-app-kubernetes.html">Deploy an App to Kubernetes (Digital Ocean)</a>  &bull;  <span>25 Mar 2020</span> </li>
-      
+      <li><span>26 Mar 2020</span> &raquo; <a href="/old/2020/03/26/how-to-sell.html">How to Sell</a></li>
     
   </ul>
 </div>

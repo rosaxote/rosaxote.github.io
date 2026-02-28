@@ -8,7 +8,7 @@ category: old
 {{ page.title }}
 ================
 
-<p class="meta">3.26.20 - San Francisco - R. Lin</p>
+<p class="meta">3.26.20 - San Francisco</p>
 
 Once upon a time, about two years ago, as I embarked on this startup journey, I was a green sprout with nary a sale to my name, completely naive and unencumbered as to what enterprise constituted, what was a funnel, how to lead a discovery call, what it meant to qualify, how to close a deal. Like many technical folks out there who all their lives thought to let the result, the product, the art speak for itself, I had no experience in having to chase down people and ask them to part with money. And while letting the product speak for itself can work to some extent in consumer-facing sales, it's quite another in business-facing deals (aka business-to-business, B2B sales). 
 

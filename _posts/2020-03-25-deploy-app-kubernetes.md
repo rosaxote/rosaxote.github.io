@@ -8,7 +8,7 @@ category: old
 {{ page.title }}
 ================
 
-<p class="meta">3.25.20 - San Francisco - R. Lin</p>
+<p class="meta">3.25.20 - San Francisco</p>
 
 It might come upon you one day to host a rapidly scalable containerized app. 
 

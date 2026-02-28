@@ -22,7 +22,7 @@ html, body {
 }
 
 body {
-  background-color: #fbf7f5;
+  background-color: #f4f0eb;
   font: 16px 'Zen Maru Gothic', sans-serif;
   *font-size: small;
   text-align: center;
@@ -31,6 +31,7 @@ body {
 h5, h6 {
   font-size: 120%;
   font-family: 'Lora', serif;
+  color: #444;
 }
 
 h4 {
@@ -38,24 +39,27 @@ h4 {
   font-family: 'Lora', serif;
   padding-top: 12px;
   font-style: italic;
+  color: #444;
 }
 
 h3 {
   font-size: 130%;
   font-family: 'Lora', serif;
   padding-top: 12px;
+  color: #444;
 }
 
 h2 {
   font-size: 140%;
   font-family: 'Lora', serif;
   padding-bottom: 8px;
+  color: #444;
 }
-
 
 h1 {
   font-size: 160%;
   font-family: 'Lora', serif;
+  color: #444;
 }
 
 p {
@@ -93,7 +97,7 @@ sup {
 /*****************************************************************************/
 
 #home h2 {
-  color: #555;
+  color: #444;
 }
 
 ul.posts {
@@ -122,11 +126,12 @@ ul.posts {
   font-size: 100%;
   text-align: justify;
   width: 100%;
-  max-width: 52em;
-  margin: 3em auto 2em auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  max-width: calc(45em + 24em);
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 3em 12em 2em 12em;
   line-height: 1.75em;
+  background-color: #fcf7f4;
 }
 
 .title {
@@ -135,7 +140,7 @@ ul.posts {
   align-items: baseline;
   font-family: 'Lora', serif;
   font-style: italic;
-  color: #333;
+  color: #444;
   font-weight: 700;
   margin-top: 4em;
   margin-bottom: 2em;
@@ -143,12 +148,12 @@ ul.posts {
 }
 
   .site .title a {
-    color: #333;
+    color: #444;
     text-decoration: none;
   }
 
   .site .title a:hover {
-    color: #222;
+    color: #444;
   }
 
   .site .title .about-link {
@@ -216,13 +221,20 @@ ul.posts {
   text-align: left;
 }
 
+  #post strong em,
+  #post em strong,
+  #about strong em,
+  #about em strong {
+    color: #da9100;
+  }
+
   #post h1,
   #post h2,
   #post h3,
   #post h4,
   #post h5,
   #post h6 {
-    color: #333;
+    color: #444;
     padding-top: 0.5em;
     padding-bottom: 0.35em;
   }
@@ -377,9 +389,8 @@ ul.posts {
 /* Tablet */
 @media (max-width: 768px) {
   .site {
-    margin: 2em auto 1.5em auto;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+    margin: 0 auto;
+    padding: 2em 3rem 1.5em 3rem;
   }
 
   .title {
@@ -396,9 +407,8 @@ ul.posts {
   }
 
   .site {
-    margin: 1.25em auto 1em auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    margin: 0 auto;
+    padding: 1.25em 2rem 1em 2rem;
     text-align: left;
   }
 

@@ -8,7 +8,7 @@ category: old
 {{ page.title }}
 ================
 
-<p class="meta">5.25.20 - San Francisco - R. Lin</p>
+<p class="meta">5.25.20 - San Francisco</p>
 
 *Crystal ball, the future is in your gaze, coalesce your vision for me in that effervescent glaze. What thoughts hide behind that dome? What more do your gentle threads bode? Come bring me the future if all humankind worked from home.*
 
