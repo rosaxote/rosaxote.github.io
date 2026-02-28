@@ -40,7 +40,7 @@ At this point, you would've reasonably met about 37% of the candidates you'd eve
 
 ![Marriage Graph](/images/marriage_graph.png)
 
-And what do you know, this is borne out from real-life date (see above). In fact, the age has been trending upwards over time (though who knows what it'll be like now post-pandemic). Why has it trended upwards? What has changed over the decades?
+And what do you know, this is borne out from real-life data (see above). In fact, the age has been trending upwards over time (though who knows what it'll be like now post-pandemic). Why has it trended upwards? What has changed over the decades?
 
 Well, simply, N got larger -- people met more people as ever larger cohorts went to college, grad school, did internships, and hopped jobs. 
 
@@ -49,6 +49,6 @@ In my personal life, I also met my husband at age 28. I think the brain has a su
 
 ### Why Not 37% 
 
-In both Schelling's model, the board starts segregating when the tolerance reaches the 30%+ threshold. So why not a 30%, 37% rule? Why [60%](https://rosaxote.github.io/main/2025/10/14/60-percent.html)? 
+In both Schelling's model and the Secretary Problem, a tipping point is reached around 30%+ -- the board starts segregating, you start to risk missing out on great candidates. So why not a 30%, 37% rule? Why [60%](https://rosaxote.github.io/main/2025/10/14/60-percent.html)? 
 
 Well, 37% is certainly possible, but it is a low bar and ought to be taken only at the hinder end of resorts. You'll be exposed to jobs/people/environments only satisfying a third of your desires, for a period of time. With a ~60% tolerance threshold, the board still converges to a segregated state in a reasonable time, but with smaller exposure to unwanted elements. Basically, it's roughly the the closest you can push the threshold before you start crossing into 'perfection' territory, where your board is less likely to settle.

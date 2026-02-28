@@ -4,7 +4,7 @@
  <title>Rosaxote's World Atlas</title>
  <link href="https://rosaxote.github.io/atom.xml" rel="self"/>
  <link href="https://rosaxote.github.io/"/>
- <updated>2026-02-27T17:32:50-08:00</updated>
+ <updated>2026-02-27T17:35:45-08:00</updated>
  <id>https://rosaxote.github.io/</id>
  <author>
    <name>Rosaxote</name>
@@ -52,7 +52,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/images/marriage_graph.png&quot; alt=&quot;Marriage Graph&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;And what do you know, this is borne out from real-life date (see above). In fact, the age has been trending upwards over time (though who knows what it’ll be like now post-pandemic). Why has it trended upwards? What has changed over the decades?&lt;/p&gt;
+&lt;p&gt;And what do you know, this is borne out from real-life data (see above). In fact, the age has been trending upwards over time (though who knows what it’ll be like now post-pandemic). Why has it trended upwards? What has changed over the decades?&lt;/p&gt;
 
 &lt;p&gt;Well, simply, N got larger – people met more people as ever larger cohorts went to college, grad school, did internships, and hopped jobs.&lt;/p&gt;
 
@@ -60,7 +60,7 @@
 
 &lt;h3 id=&quot;why-not-37&quot;&gt;Why Not 37%&lt;/h3&gt;
 
-&lt;p&gt;In both Schelling’s model, the board starts segregating when the tolerance reaches the 30%+ threshold. So why not a 30%, 37% rule? Why &lt;a href=&quot;https://rosaxote.github.io/main/2025/10/14/60-percent.html&quot;&gt;60%&lt;/a&gt;?&lt;/p&gt;
+&lt;p&gt;In both Schelling’s model and the Secretary Problem, a tipping point is reached around 30%+ – the board starts segregating, you start to risk missing out on great candidates. So why not a 30%, 37% rule? Why &lt;a href=&quot;https://rosaxote.github.io/main/2025/10/14/60-percent.html&quot;&gt;60%&lt;/a&gt;?&lt;/p&gt;
 
 &lt;p&gt;Well, 37% is certainly possible, but it is a low bar and ought to be taken only at the hinder end of resorts. You’ll be exposed to jobs/people/environments only satisfying a third of your desires, for a period of time. With a ~60% tolerance threshold, the board still converges to a segregated state in a reasonable time, but with smaller exposure to unwanted elements. Basically, it’s roughly the the closest you can push the threshold before you start crossing into ‘perfection’ territory, where your board is less likely to settle.&lt;/p&gt;
 </content>
