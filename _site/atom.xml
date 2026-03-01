@@ -4,7 +4,7 @@
  <title>Rosaxote's World Atlas</title>
  <link href="https://rosaxote.github.io/atom.xml" rel="self"/>
  <link href="https://rosaxote.github.io/"/>
- <updated>2026-02-28T08:02:43-08:00</updated>
+ <updated>2026-03-01T08:26:37-08:00</updated>
  <id>https://rosaxote.github.io/</id>
  <author>
    <name>Rosaxote</name>
@@ -20,6 +20,8 @@
    <content type="html">&lt;h1 id=&quot;optimal-stopping-romantic-pursuits-and-why-not-37&quot;&gt;Optimal Stopping, Romantic Pursuits, and Why not 37%?&lt;/h1&gt;
 
 &lt;p class=&quot;meta&quot;&gt;2.27.26 - SF Bay area&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This post follows the &lt;a href=&quot;https://rosaxote.github.io/main/2025/10/14/60-percent.html&quot;&gt;60 Percent Rule&lt;/a&gt; post.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Schelling’s Model of Segregation dovetails with another famous problem in Game Theory, the Secretary Problem. Basically, the premise is: suppose you had to interview a line of secretaries sequentially (this problem was formulated in the 1950s and ’60s), and must accept or reject them on the spot, with no ability to backtrack. If you’ve rejected everyone by the end, you must select the last applicant. How do you optimize for selecting the best candidate?&lt;/p&gt;
 

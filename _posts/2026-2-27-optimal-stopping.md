@@ -10,6 +10,8 @@ category: main
 
 <p class="meta">2.27.26 - SF Bay area</p>
 
+*This post follows the [60 Percent Rule](https://rosaxote.github.io/main/2025/10/14/60-percent.html) post.*
+
 
 Schelling's Model of Segregation dovetails with another famous problem in Game Theory, the Secretary Problem. Basically, the premise is: suppose you had to interview a line of secretaries sequentially (this problem was formulated in the 1950s and '60s), and must accept or reject them on the spot, with no ability to backtrack. If you've rejected everyone by the end, you must select the last applicant. How do you optimize for selecting the best candidate? 
 
