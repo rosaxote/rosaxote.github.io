@@ -15,7 +15,7 @@ In computer science, a common problem is that of scheduling -- basically, when y
 
 There are many types of solutions, ranging from very simple (say, first come first serve) to a little more optimal (say, shortest job first), to rather complex (multilevel feedback queue).
 
-You've likely encountered the same problem in your daily work life. Given a set of tasks, how should you best go through them? Should you get the small tasks out the of the way first? Or should you tackle the big priority tasks, no matter the time it might take? Perhaps you should schedule the big priority tasks when you have most mental throughput, as well as long uninterrupted time (as a morning bird or night owl, this might be when the world is sleeping). Or perhaps, you will assign each task an allotted time -- say, 25 minutes, as in the Pomodoro system.
+You've likely encountered the same problem in your daily work life. Given a set of tasks, how should you best go through them? Should you get the small tasks out of the way first? Or should you tackle the big priority tasks, no matter the time it might take? Perhaps you should schedule the big priority tasks when you have most mental throughput, as well as long uninterrupted time (as a morning bird or night owl, this might be when the world is sleeping). Or perhaps, you will assign each task an allotted time -- say, 25 minutes, as in the Pomodoro system.
 
 In any case, many situations have some sort of solution. These are called tractable scheduling problems. There exists a solution to scheduling the tasks such that you can, more or less, get them done in a reasonable time.
 
