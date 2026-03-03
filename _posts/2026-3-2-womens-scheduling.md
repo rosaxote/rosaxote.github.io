@@ -43,9 +43,9 @@ Here are a few thoughts on things that would help, though this question certainl
 
 Extending female fertility. We are making headways in that with IVF, egg freezing, surrogacy, new medical treatments. If women had a similar reproductive timeline as men, that would be a game-changer.
 
-Remote work allowing more flexible geography, and thus mixing. Perhaps someone working in media doesn't have to spend all her time in NYC. Remote work also helps new parents and parents of young kids.
+Remote work allowing more flexible geography, and thus mixing. Perhaps someone working in media doesn't have to spend all her time in NYC. Remote work also helps new parents and parents of young kids. Though again, remote work can make it harder for young people to meet each other.
 
-AI. Maybe AI will do our work and give us more time to have kids? Or maybe it will make us all work harder to compete with AI. Who knows. Worth listing anyway.
+AI. Maybe AI will do our work and give us more time to have kids ... or maybe it will make us all work harder to compete with AI. Who knows. Worth listing anyway.
 
 I was tempted to add in "make things more affordable", but I think that is too blunt of a statement. After all, some low-income families have some of the highest fertility rates. But I think an under-the-radar policy is simply to increase housing stock. More homes = cheaper homes = more space, resources to rear a family. More homes in high-demand cities = people don't have to choose between having a reasonable commute vs. grow a family.
 
