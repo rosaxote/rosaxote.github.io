@@ -32,6 +32,6 @@ I believe AI-first companies and economies are similar. I have no doubt some peo
 
 But I think they will trail the companies, economies, and societies that preserve the human-centric way of doing things, with AI only as accoutrement. For they will find, in an AI-first world, that people experience friction in connecting to others, that there will be a lot of AI-generated noise, that races occur to both the top and bottom, that things actually don't get more efficient.
 
-The ones that emphasize in-person meetings, mentorship, human-generated writing and communication, rather than offloading it all to AI, will, I believe, succeed in the long run.
+The ones that emphasize in-person meetings, mentorship, human writing and communication, rather than offloading it all to AI, will, I believe, succeed in the long run.
 
 Oh, and as for Texas? We didn't last a year ... we moved back to the Bay area.
