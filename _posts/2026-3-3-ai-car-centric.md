@@ -12,7 +12,7 @@ category: main
 
 Last year my husband and I moved from the SF Bay area to Austin, TX, in order to be closer to my parents in Houston. 
 
-I grew up in Texas, but this was the first time I'd actually lived there longer than 2 months since I was 21. In the interim, I've lived in cities such as Chicago, Washington DC, and San Francisco, with frequent trips to London, NYC, and other big metropolises. When I stepped foot back in Texas, I actually felt a bit like a foreigner. There were good things, such as rediscovering the wonderful Tex-Mex (the first chile relleno plate I had in Austin was so nostalgic and amazing) or the incomparable Texas Roadhouse (we basically inhale those dinner rolls). But the flip side, in my reverse-culture shock, was the car-centric nature of Texas.
+I grew up in Texas, but this was the first time I'd actually lived there longer than 2 months since I was 21. In the interim, I've lived in cities such as Chicago, Washington DC, and San Francisco, with frequent trips to London, NYC, and other big metropolises. When I stepped foot back in Texas, I actually felt a bit like a foreigner. There were good things, such as rediscovering the wonderful Tex-Mex (the first chile relleno plate I had in Austin was so nostalgic and amazing) or the incomparable Texas Roadhouse (we basically inhale those dinner rolls), or the cicadas calling from the verdant oaks in summer. But the flip side, in my reverse-culture shock, was the car-centric nature of Texas.
 
 ![Texas traffic](/images/mopac-traffic.png)
 
