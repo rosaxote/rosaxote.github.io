@@ -1,0 +1,4 @@
+# Add your Google Analytics 4 Measurement ID (starts with G-) to enable analytics.
+# Leave empty or remove the line to disable.
+# Get it from: https://analytics.google.com/ → Admin → Data Streams → your stream → Measurement ID
+google_analytics:
