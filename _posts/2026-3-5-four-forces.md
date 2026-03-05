@@ -15,7 +15,7 @@ In physics, they say, without four fundamental forces holding together the unive
 
 These four fundamental forces, likely unified right at the Big Bang before separating out, govern all interactions between matter in the universe. They are: gravity, electromagnetism, strong nuclear force, and weak nuclear force.
 
-![NASA Centaurus A](/images/cena-lic-lp-nature-cropped.png)
+### Forces of Society
 
 I believe society is governed by four analogous forces. Without these forces, society, community would not form -- we would all be individuals dispersed to the wind, not connecting; not forming teams, coalitions; lacking civilization, achievement. These are the forces that keep us together, than run our world, that determine the arc of our actions, the flow of our resources. 
 
@@ -30,3 +30,5 @@ These forces are:
 4. Necessity (strong force). This is the drive to survive. It is very strong, and short range. This includes what is needed to live: food, shelter, resources, a mate, etc. In our modern world it can translate to safe surroundings and a job/career. This also includes short-range defensive and offensive actions.
 
 Together, these are the forces which allow people to gain the density and mobility to become something greater than the sum of their parts. 
+
+![NASA Centaurus A](/images/cena-lic-lp-nature-cropped.png)
