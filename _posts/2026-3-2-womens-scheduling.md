@@ -47,6 +47,6 @@ Remote work allowing more flexible geography, and thus mixing. Perhaps someone w
 
 AI. Maybe AI will do our work and give us more time to have kids ... or maybe it will make us all work harder to compete with AI. Who knows. Worth listing anyway.
 
-I was tempted to add in "make things more affordable", but I think that is too blunt of a statement. After all, some low-income families have some of the highest fertility rates. But I think an under-the-radar policy is simply to increase housing stock. More homes = cheaper homes = more space, resources to rear a family. More homes in high-demand cities = otherwise well paid people don't have to choose between having a reasonable commute vs. grow a family.
+I was tempted to add in "make things more affordable", but I think that is too blunt of a statement. After all, some low-income families have some of the highest fertility rates. But I think an under-the-radar policy is simply to build fast, efficient transport (such as high speed rail). Doing so increases the radius of housing available to commuters, and thus the housing stock. More homes = cheaper homes = more space, resources to rear a family. More homes in high-demand cities = otherwise well paid people don't have to choose between having a reasonable commute vs. grow a family.
 
 It's an area where more ideas, and better policy is needed!
