@@ -14,17 +14,52 @@ I went to Universal Orlando's Islands of Adventure last summer (which was a blas
 
 Islands was the first theme park I'd been to since I was a teenager (I used to go all the time back then). I wasn't sure what to expect after nearly twenty years and as an adult, but boy, it was tons of fun. We packed almost all the rides into one day, including doing a couple more than once. We did everything from the little Dr. Seuss train to Hagrid's Motorbike (we skipped the two big ones, Hulk and Velociraptor because the hubs was new to big rides). I even had time to pass out/take a nap in some Dr. Seuss diner from the sweltering heat.
 
-One thing I thought back then was they could really do a lot to expand theming to their foods/restaurants. But after having gone to Epic Universe, I now realize that great food is a nice-to-have, not a must-have. 
+<figure class="post-photo-figure">
+  <a href="/images/islands1.jpg" class="post-photo-link" target="_blank" rel="noopener">
+    <img src="/images/islands1.jpg" alt="Islands 1" class="post-photo post-photo--70" />
+  </a>
+  <figcaption class="post-photo-caption">Island's Flight of the Hippogriff</figcaption>
+</figure>
 
-The must-have, the core reason anyone a tween or older goes to a theme park, is great, thrilling rides amidst unique, transportive settings.
+<figure class="post-photo-figure">
+  <a href="/images/islands3.jpg" class="post-photo-link" target="_blank" rel="noopener">
+    <img src="/images/islands3.jpg" alt="Islands 3" class="post-photo post-photo--55" />
+  </a>
+  <figcaption class="post-photo-caption">Delicious butterbeer</figcaption>
+</figure>
+
+
+One thing I thought back then was they could really do a lot to expand theming to their foods/restaurants. But after having gone to Epic Universe, I now realize that great food is a nice-to-have, not a must-have. The must-have, the core reason most people tween or older (without small kids) go to a theme park, is great, thrilling rides amidst unique, transportive settings.
 
 Epic is a very solid theme park. It's like a precocious teenager - it has some things highly developed, but has room to grow into impressive maturity (which I'm sure Universal has plans for). It's extremely strong on theming - it picked up where Islands's most modern rides (like the Harry Potter dark ride) left off, and expanded it into an entire park. It's built very detailed worlds for each theme - How to Train your Dragon, Harry Potter, Dark Universe, and Mario Kart, with plenty to explore in each. It has elevated queues, such that some queues are on par with the rides for interest!
+
+<figure class="post-photo-figure">
+  <a href="/images/epic2.jpg" class="post-photo-link" target="_blank" rel="noopener">
+    <img src="/images/epic2.jpg" alt="Epic 2" class="post-photo post-photo--70" />
+  </a>
+  <figcaption class="post-photo-caption">The queue for Epic's Battle at the Ministry</figcaption>
+</figure>
+
+<figure class="post-photo-figure">
+  <a href="/images/epic1.jpg" class="post-photo-link" target="_blank" rel="noopener">
+    <img src="/images/epic1.jpg" alt="Epic 1" class="post-photo post-photo--70" />
+  </a>
+  <figcaption class="post-photo-caption">Butterbeer crepes at Epic</figcaption>
+</figure>
+
 
 However, it trails Islands in the number of rides there are, and also their depth. While the queues may be interesting (and long!) the rides themselves tended to be quite short. I felt many were similar length to Island's Jurassic Park, which was definitely the shortest of the Island main rides. (Note, Stardust Racers was closed when we went, and it did look good.) I hope Epic adds more longer rides.
 
 Epic did add something new with their shows - both the Berk and Harry Potter shows were great and well produced.
 
 Lastly, unrelated to the parks, there is something to be said for going during peak season, during summer. I think slight heat exhaustion is actually a feature, not a bug. It makes the dark/indoor rides so much more a relief, the sweet iced drinks so much more refreshing. This combined with a few water rides/getting soaked really makes it a vacation experience.
+
+<figure class="post-photo-figure">
+  <a href="/images/islands4.jpg" class="post-photo-link" target="_blank" rel="noopener">
+    <img src="/images/islands4.jpg" alt="Islands 4" class="post-photo post-photo--55" />
+  </a>
+  <figcaption class="post-photo-caption">Splashdown at the end of Island's Jurassic Park</figcaption>
+</figure>
 
 Epic Universe is only about a year old, and as a new theme park it has a lot of potential and a very solid foundation. I'll really like to see it grow into the mature theme park that Islands of Adventure is. At this point, Islands still takes the cake for me - it's the most bang for your buck and provides everything you'd expect out of a theme park - thrilling (and loads of) rides, several different worlds, immersive theming, great mix of coasters/dark/water/kid rides. From the old classics like Jurassic Park to modern dark rides like Forbidden Journey, it's really got it nailed. Epic Universe has a great start, and with time I'm sure can grow into all that it can be.
 

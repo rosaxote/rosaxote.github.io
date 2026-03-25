@@ -443,6 +443,91 @@ ul.posts {
     padding: 1em 0;
   }
 
+  /* Photo helpers for posts:
+     - smaller images via classes in the MD (e.g. post-photo--48)
+     - side-by-side via post-photo-row wrapper */
+
+  #post img.post-photo {
+    padding: 0;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+    flex: 0 0 auto;
+  }
+
+  #post a.post-photo-link {
+    display: block;
+  }
+
+  #post figure.post-photo-figure {
+    margin: 1em 0;
+    padding-top: 0.25em;
+  }
+
+  #post figure.post-photo-figure img.post-photo {
+    margin: 0 auto;
+  }
+
+  #post .post-photo-caption {
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-size: 0.85em;
+    font-style: italic;
+    color: #777;
+    text-align: center;
+    margin-top: 0.35em;
+  }
+
+  #post .post-photo-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+    gap: 1.25em;
+    margin: 1em 0;
+    align-items: start;
+  }
+
+  #post .post-photo-row.post-photo-row--2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  #post .post-photo-row.post-photo-row--2-unequal {
+    grid-template-columns: 1.35fr 1fr;
+  }
+
+  #post .post-photo-row img.post-photo {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    display: block;
+  }
+
+  #post .post-photo-row figure.post-photo-figure {
+    margin: 0;
+    padding-top: 0;
+  }
+
+  #post img.post-photo--40 { width: 40%; max-width: 40%; }
+  #post img.post-photo--48 { width: 48%; max-width: 48%; }
+  #post img.post-photo--55 { width: 55%; max-width: 55%; }
+  #post img.post-photo--60 { width: 60%; max-width: 60%; }
+  #post img.post-photo--65 { width: 65%; max-width: 65%; }
+  #post img.post-photo--70 { width: 70%; max-width: 70%; }
+
+  @media (max-width: 768px) {
+    #post img.post-photo {
+      width: 100%;
+      max-width: 100%;
+    }
+
+    #post .post-photo-row,
+    #post .post-photo-row.post-photo-row--2 {
+      grid-template-columns: 1fr;
+    }
+
+    #post .post-photo-row.post-photo-row--2-unequal {
+      grid-template-columns: 1fr;
+    }
+  }
+
   /* terminal */
 
   #post pre.terminal,
@@ -611,6 +696,10 @@ html.dark-mode sup {
 html.dark-mode #post img,
 html.dark-mode #about img {
   filter: brightness(0.80);
+}
+
+html.dark-mode #post .post-photo-caption {
+  color: #b8b5b0;
 }
 
 /*****************************************************************************/
