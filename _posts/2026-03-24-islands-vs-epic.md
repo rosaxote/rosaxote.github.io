@@ -29,23 +29,23 @@ Lastly, unrelated to the parks, there is something to be said for going during p
 Epic Universe is only about a year old, and as a new theme park it has a lot of potential and a very solid foundation. I'll really like to see it grow into the mature theme park that Islands of Adventure is. At this point, Islands still takes the cake for me - it's the most bang for your buck and provides everything you'd expect out of a theme park - thrilling (and loads of) rides, several different worlds, immersive theming, great mix of coasters/dark/water/kid rides. From the old classics like Jurassic Park to modern dark rides like Forbidden Journey, it's really got it nailed. Epic Universe has a great start, and with time I'm sure can grow into all that it can be.
 
 
-Notable mentions
+#### Notable mentions
 
-Islands of Adventure (excepting Velociraptor and Hulk):
-Best ride - Hagrid's Motorbike
-Best indoor - Harry Potter Forbidden Journey
-Surprisingly thrilling - Dudley Do-Right
-Old classic - Jurassic Park
+**Islands of Adventure (excepting Velociraptor and Hulk):**<br>
+Best ride - Hagrid's Motorbike<br>
+Best indoor - Harry Potter Forbidden Journey<br>
+Surprisingly thrilling - Dudley Do-Right<br>
+Old classic - Jurassic Park<br>
 
 
-Epic Universe (excepting Stardust Racers):
-Hiccup’s Wing Gliders - better than Mine Cart Madness, why are on earth are people lining up so long for Mine Cart when Gliders is much more free?
-Mine Cart - good but Wing Gliders better + shorter line
-Battle at Ministry - Good but not as good as IOA's Forbidden Journey
-Monsters - More thrilling than Battle at Ministry, on par with IOA's Forbidden Journey but storyline less immersive
-Both shows (Berk and Harry Potter) - pretty good, modern animatronics are much improved
-Bowser's - I liked this but the headgear kept slipping down my face
-Stardust - was closed, but looked good
+**Epic Universe (excepting Stardust Racers):**<br>
+Hiccup’s Wing Gliders - better than Mine Cart Madness, why are on earth are people lining up so long for Mine Cart when Gliders is much more free?<br>
+Mine Cart - good but Wing Gliders better + shorter line<br>
+Battle at Ministry - Good but not as good as IOA's Forbidden Journey<br>
+Monsters - More thrilling than Battle at Ministry, on par with IOA's Forbidden Journey but storyline less immersive<br>
+Both shows (Berk and Harry Potter) - pretty good, modern animatronics are much improved<br>
+Bowser's - I liked this but the headgear kept slipping down my face<br>
+Stardust - was closed, but looked good<br>
 
 Overall, Epic Universe is a new theme park and has good foundations, would be great to see it expand to more and longer rides.
 
