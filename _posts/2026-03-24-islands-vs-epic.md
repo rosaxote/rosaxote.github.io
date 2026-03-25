@@ -61,7 +61,7 @@ Lastly, unrelated to the parks, there is something to be said for going during p
   <figcaption class="post-photo-caption">Splashdown at the end of Island's Jurassic Park</figcaption>
 </figure>
 
-Epic Universe is only about a year old, and as a new theme park it has a lot of potential and a very solid foundation. I'll really like to see it grow into the mature theme park that Islands of Adventure is. At this point, Islands still takes the cake for me - it's the most bang for your buck and provides everything you'd expect out of a theme park - thrilling (and loads of) rides, several different worlds, immersive theming, great mix of coasters/dark/water/kid rides. From the old classics like Jurassic Park to modern dark rides like Forbidden Journey, it's really got it nailed. Epic Universe has a great start, and with time I'm sure can grow into all that it can be.
+Epic Universe is only about a year old, and as a new theme park it has a lot of potential and a very solid foundation. I'll really like to see it grow into the mature theme park that Islands of Adventure is. At this point, Islands still takes the cake for me - it's the most bang for your buck and provides everything you'd expect out of a theme park. Epic Universe has a great start, and with time I'm sure can grow into all that it can be.
 
 
 #### Notable mentions
