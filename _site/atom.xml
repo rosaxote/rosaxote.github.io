@@ -4,7 +4,7 @@
  <title>Rosaxote's World Atlas</title>
  <link href="https://rosaxote.github.io/atom.xml" rel="self"/>
  <link href="https://rosaxote.github.io/"/>
- <updated>2026-03-13T10:58:02-07:00</updated>
+ <updated>2026-03-24T21:52:56-04:00</updated>
  <id>https://rosaxote.github.io/</id>
  <author>
    <name>Rosaxote</name>
@@ -15,7 +15,7 @@
  <entry>
    <title>The Four Fundamental Forces of Society</title>
    <link href="https://rosaxote.github.io/main/2026/03/05/four-forces.html"/>
-   <updated>2026-03-05T00:00:00-08:00</updated>
+   <updated>2026-03-05T00:00:00-05:00</updated>
    <id>https://rosaxote.github.io/main/2026/03/05/four-forces</id>
    <content type="html">&lt;h1 id=&quot;the-four-fundamental-forces-of-society&quot;&gt;The Four Fundamental Forces of Society&lt;/h1&gt;
 
@@ -55,7 +55,7 @@
  <entry>
    <title>AI-first Societies are like Car-centric Cities</title>
    <link href="https://rosaxote.github.io/main/2026/03/03/ai-car-centric.html"/>
-   <updated>2026-03-03T00:00:00-08:00</updated>
+   <updated>2026-03-03T00:00:00-05:00</updated>
    <id>https://rosaxote.github.io/main/2026/03/03/ai-car-centric</id>
    <content type="html">&lt;h1 id=&quot;ai-first-societies-are-like-car-centric-cities&quot;&gt;AI-first Societies are like Car-centric Cities&lt;/h1&gt;
 
@@ -92,7 +92,7 @@
  <entry>
    <title>Women's Scheduling Problem</title>
    <link href="https://rosaxote.github.io/main/2026/03/02/womens-scheduling.html"/>
-   <updated>2026-03-02T00:00:00-08:00</updated>
+   <updated>2026-03-02T00:00:00-05:00</updated>
    <id>https://rosaxote.github.io/main/2026/03/02/womens-scheduling</id>
    <content type="html">&lt;h1 id=&quot;womens-scheduling-problem&quot;&gt;Women’s Scheduling Problem&lt;/h1&gt;
 
@@ -143,7 +143,7 @@
  <entry>
    <title>Optimal Stopping, Romantic Pursuits, and Why not 37%?</title>
    <link href="https://rosaxote.github.io/main/2026/02/27/optimal-stopping.html"/>
-   <updated>2026-02-27T00:00:00-08:00</updated>
+   <updated>2026-02-27T00:00:00-05:00</updated>
    <id>https://rosaxote.github.io/main/2026/02/27/optimal-stopping</id>
    <content type="html">&lt;h1 id=&quot;optimal-stopping-romantic-pursuits-and-why-not-37&quot;&gt;Optimal Stopping, Romantic Pursuits, and Why not 37%?&lt;/h1&gt;
 
@@ -205,7 +205,7 @@
  <entry>
    <title>60 Percent Rule</title>
    <link href="https://rosaxote.github.io/main/2025/10/14/60-percent.html"/>
-   <updated>2025-10-14T00:00:00-07:00</updated>
+   <updated>2025-10-14T00:00:00-04:00</updated>
    <id>https://rosaxote.github.io/main/2025/10/14/60-percent</id>
    <content type="html">&lt;h1 id=&quot;60-percent-rule&quot;&gt;60 Percent Rule&lt;/h1&gt;
 
@@ -254,7 +254,7 @@
  <entry>
    <title>What would a remote world look like?</title>
    <link href="https://rosaxote.github.io/old/2020/05/25/what-would-remote-world-look-like.html"/>
-   <updated>2020-05-25T00:00:00-07:00</updated>
+   <updated>2020-05-25T00:00:00-04:00</updated>
    <id>https://rosaxote.github.io/old/2020/05/25/what-would-remote-world-look-like</id>
    <content type="html">&lt;h1 id=&quot;what-would-a-remote-world-look-like&quot;&gt;What would a remote world look like?&lt;/h1&gt;
 
@@ -353,7 +353,7 @@
  <entry>
    <title>How to Sell</title>
    <link href="https://rosaxote.github.io/old/2020/03/26/how-to-sell.html"/>
-   <updated>2020-03-26T00:00:00-07:00</updated>
+   <updated>2020-03-26T00:00:00-04:00</updated>
    <id>https://rosaxote.github.io/old/2020/03/26/how-to-sell</id>
    <content type="html">&lt;h1 id=&quot;how-to-sell&quot;&gt;How to Sell&lt;/h1&gt;
 
@@ -462,7 +462,7 @@ Sixth cut - 1 girl who likes their second date enough to go on a third one. → 
  <entry>
    <title>Deploy an App to Kubernetes (Digital Ocean)</title>
    <link href="https://rosaxote.github.io/old/2020/03/25/deploy-app-kubernetes.html"/>
-   <updated>2020-03-25T00:00:00-07:00</updated>
+   <updated>2020-03-25T00:00:00-04:00</updated>
    <id>https://rosaxote.github.io/old/2020/03/25/deploy-app-kubernetes</id>
    <content type="html">&lt;h1 id=&quot;deploy-an-app-to-kubernetes-digital-ocean&quot;&gt;Deploy an App to Kubernetes (Digital Ocean)&lt;/h1&gt;
 
@@ -633,7 +633,7 @@ Run
  <entry>
    <title>A Child's Dream</title>
    <link href="https://rosaxote.github.io/really-old/2008/03/01/a-childs-dream.html"/>
-   <updated>2008-03-01T00:00:00-08:00</updated>
+   <updated>2008-03-01T00:00:00-05:00</updated>
    <id>https://rosaxote.github.io/really-old/2008/03/01/a-childs-dream</id>
    <content type="html">&lt;h1 id=&quot;a-childs-dream&quot;&gt;A Child’s Dream&lt;/h1&gt;
 
