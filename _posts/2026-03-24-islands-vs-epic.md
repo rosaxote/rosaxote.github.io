@@ -29,7 +29,7 @@ Islands was the first theme park I'd been to since I was a teenager (I used to g
 </figure>
 
 
-One thing I thought back then was they could really do a lot to expand theming to their foods/restaurants. But after having gone to Epic Universe, I now realize that great food is a nice-to-have, not a must-have. The must-have, the core reason most people tween or older (without small kids) go to a theme park, is great, thrilling rides amidst unique, transportive settings.
+One thing I thought back then was they could really do a lot to expand theming to their foods/restaurants. But after having gone to Epic Universe, I now realize that great food is a nice-to-have, not a must-have. The must-have, the core reason most people tween or older (without small kids) go to a theme park, is great, thrilling rides amidst immersive settings.
 
 Epic is a very solid theme park. It's like a precocious teenager - it has some things highly developed, but has room to grow into impressive maturity (which I'm sure Universal has plans for). It's extremely strong on theming - it picked up where Islands's most modern rides (like the Harry Potter dark ride) left off, and expanded it into an entire park. It's built very detailed worlds for each theme - How to Train your Dragon, Harry Potter, Dark Universe, and Mario Kart, with plenty to explore in each. It has elevated queues, such that some queues are on par with the rides for interest!
 
