@@ -106,7 +106,7 @@ In other words, natural growth, under constraints, turns into rotation.
 
 ### TIME ALSO GROWS
 
-We tend to think of time as independent and linear, but we know from Einstein's equations that space and time are linked. While the universe is unimaginably large relative to us, and time flows smoothly within this space, the universe has ultimately (likely) spatial limits too. That means, under those spatial limits, the growth of time must be constrained.
+We tend to think of time as independent and linear, but we know from Einstein's equations that space and time are linked. While the universe is unimaginably large relative to us, and time flows (relatively) smoothly within this space, the universe has ultimately (likely) spatial limits too. That means, under those spatial limits, the growth of time must be constrained.
 
 Thus, under spatial limits, the growth of time must turn into rotation.
 
