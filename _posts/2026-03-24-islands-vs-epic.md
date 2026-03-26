@@ -31,7 +31,7 @@ Islands was the first theme park I'd been to since I was a teenager (I used to g
 
 One thing I thought back then was they could really do a lot to expand theming to their foods/restaurants. But after having gone to Epic Universe, I now realize that great food is a nice-to-have, not a must-have. The must-have, the core reason most people tween or older (without small kids) go to a theme park, is great, thrilling rides amidst immersive settings.
 
-Epic is a very solid theme park. It's like a precocious teenager - it has some things highly developed, but has room to grow into impressive maturity (which I'm sure Universal has plans for). It's extremely strong on theming - it picked up where Islands's most modern rides (like the Harry Potter dark ride) left off, and expanded it into an entire park. It's built very detailed worlds for each theme - How to Train your Dragon, Harry Potter, Dark Universe, and Mario Kart, with plenty to explore in each. It has elevated queues, such that some queues are on par with the rides for interest!
+Epic is a very solid theme park. It's like a precocious teenager - it has some things highly developed, but has room to grow into actual maturity (which I'm sure Universal has plans for). It's very strong on theming - it picked up where Islands's modern rides (Forbidden Forest, Hagrid's) left off, and expanded it into an entire park. It's built very detailed worlds - How to Train your Dragon, Harry Potter, Dark Universe, and Super Nintendo, with plenty to explore in each. It has elevated queues, such that some are on par with the rides for interest!
 
 <figure class="post-photo-figure">
   <a href="/images/epic2.jpg" class="post-photo-link" target="_blank" rel="noopener">
@@ -48,7 +48,7 @@ Epic is a very solid theme park. It's like a precocious teenager - it has some t
 </figure>
 
 
-However, it trails Islands in the number of rides there are, and also their depth. While the queues may be interesting (and long!) the rides themselves tended to be quite short. I felt many were similar length to Island's Jurassic Park, which was definitely the shortest of the Island main rides. (Note, Stardust Racers was closed when we went, and it did look good.) I hope Epic adds more longer rides.
+However, it trails Islands in the number of rides, and also their depth. While the queues may be interesting (and long!), the rides themselves tended to be quite short. I felt many were similar length to Island's Jurassic Park, which was definitely the shortest of the Island main rides. (Note, Stardust Racers was closed when we went, and it did look good.) I hope Epic adds more and longer rides.
 
 Epic did add something new with their shows - both the Berk and Harry Potter shows were great and well produced.
 

@@ -8,7 +8,7 @@ category: main
 {{ page.title }}
 ================
 
-<p class="meta">3.20.26 - Miami</p>
+<p class="meta">3.20.26 - Miami/Orlando</p>
 
 Look at your desk. How is it held together? Likely, if it is not injection molded furniture, by screws. Screws are one of the strongest forms to hold things together -- from the walls of your home to the hinges on a pair of glasses.
 
