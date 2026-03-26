@@ -94,7 +94,7 @@ $$e^{ix}$$
 
 where $$x$$ is the angle in radians.
 
-The most famous extrapolation from this is Euler's Identity, where if you set $$x$$ to equal &pi;, the formula boils down to:
+The most famous extrapolation from this is Euler's Identity, where if you set $$x$$ to equal $$\pi$$, the formula boils down to:
 
 $$e^{i\pi} + 1 = 0$$
 
