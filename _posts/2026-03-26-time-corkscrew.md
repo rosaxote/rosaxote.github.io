@@ -129,4 +129,4 @@ There are many questions and things to ponder, to savor for another day.
 
 <hr>
 
-<sup>1</sup><small>When $$x$$ equals &pi;, because $$\cos(\pi) = -1$$ and $$\sin(\pi) = 0$$, the formula boils down to: $$e^{i\pi} = -1$$. Or put another way, $$e^{i\pi} + 1 = 0$$. </small>
+<sup>1</sup><small>When $$x$$ equals $$\pi$$, because $$\cos(\pi) = -1$$ and $$\sin(\pi) = 0$$, the formula boils down to: $$e^{i\pi} = -1$$. Or put another way, $$e^{i\pi} + 1 = 0$$. </small>
