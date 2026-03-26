@@ -25,20 +25,22 @@ One of them is the incredible number *e*, Euler's constant. This number had oft 
 
 *E*, first discovered by Swiss mathematician Jacob Bernoulli in the late 1600s, is integral to the idea of growth. Bernoulli discovered that when you compound a value at a certain interest with increasing frequency, the final value does not go infinitely up -- it approaches a limit. This limit, across all values, is a function of the approximate number ~2.718.  
 
-$$(1+1/n)^n \to \approx 2.718 \text{ as } n \to \infty$$
+$$(1+r/n)^n \to \approx 2.718^r \text{ as } n \to \infty$$
+
+Where $$n$$ is the frequency of compounding and $$r$$ is your interest rate.
 
 As the simplest example, if you invested $1 at 100% interest per year, after one year you will have $2. If you increase the number of times you compound during the year, that final number will go up. However, it will not grow linearly. As you compound two, ten, a hundred times, the final value will approach ~$2.718(...).
 
 $$
 \begin{aligned}
-&\text{Compounded once a year: } \$1.00 + 1.00 = \$2.00 \\
-&\text{Compounded twice a year: } \$1.00 \times (1.5)^2 = \$2.25 \\
+&\text{Compounded once a year: } \$1.00 \times (1 + 1)^1 = \$2.00 \\
+&\text{Compounded twice a year: } \$1.00 \times (1 + 1/2)^2 = \$2.25 \\
 &\text{Compounded 12 times a year: } \$1.00 \times (1 + 1/12)^{12} \approx \$2.613
 \end{aligned}
 $$
 
 
-This number, ~2.718, turns out to be a constant in compound interest calculations. No matter what numbers you plug in, the end result will be a function of this constant. The exact equation is: 
+This number, ~2.718, turns out to be a constant in compound interest calculations. No matter what numbers you plug in, the end result will be a function of this constant. The full compounding equation is: 
 
 $$P \left(1 + \frac{r}{n}\right)^{nt} = A$$
 
@@ -46,11 +48,11 @@ $$P \left(1 + \frac{r}{n}\right)^{nt} = A$$
 
 Which, as n approaches infinity (aka continuous compounding), simplifies to:
 
-$$A = Pe^{rt}$$
+$$P(2.718...)^{rt} = A$$
 
 Decades later, Bernoulli's compatriot Leonhard Euler expanded on the applications for this constant, showing that it crops up wherever there is continuous compounding. **Where there is continuous compounding, something is either growing or decaying.** 
 
-Euler assigned this constant the letter *e*, and it became known as Euler's constant. *E* is fundamental to our later understanding of such disparate fields as population growth, radioactive decay, statistical normal distribution (and yes, the Secretary problem).
+Euler assigned this constant the letter *e*, and it became known as Euler's constant. *E* is fundamental to our later understanding of such disparate fields as population growth, radioactive decay, statistical normal distribution (and yes, [the Secretary problem](https://rosaxote.github.io/main/2026/02/27/optimal-stopping.html)).
 
 So let's keep this number in mind.
 
@@ -68,7 +70,7 @@ When you combine a real number and an imaginary number, like so:
 
 $$a + bi$$
 
-(where $$a$$ is the real number and $$bi$$ is some multiple of $$i$$), you get a "complex" number.
+(where $$a$$ is the real number and $$b$$ is some multiplier of $$i$$), you get a "complex" number.
 
 The reason I'm providing this background is to explain the complex plane. When you try to graph complex numbers, you can't just map it on a line like a normal number; you must have two axes: one for the real part and one for the imaginary part. By convention, the horizontal (x) axis represents the real part and the vertical (y) axis represents the imaginary part. 
 
@@ -98,7 +100,7 @@ $$e^{i\pi} + 1 = 0$$
 
 also called "the most beautiful theorem in mathematics."<sup>1</sup>
 
-We will not dive deep into that in this post, except to observe that there is a very strong relationship between $$e$$ and $$i$$, and that natural growth can be mapped as rotation on the complex plane.
+We will not dive deep into that in this post, except to observe that there is a very strong relationship between $$e$$ and $$i$$, and thus natural growth can be mapped as rotation on the complex plane.
 
 In other words, natural growth, under constraints, turns into rotation.
 
@@ -115,8 +117,6 @@ Thus, under spatial limits, the growth of time must turn into rotation.
 I think there is a reason in various world religions there is a concept of rebirth and cycles of time. 
 
 If time (and space) rotates, it is like a corkscrew holding things in our universe and beyond together. Without the rotation, everything in the universe would fall apart.
-
-On the other hand, the closest something can be is at infinitely compacted time.
 
 *What happens if there are no spatial limits?*
 
