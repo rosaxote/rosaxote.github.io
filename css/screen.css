@@ -711,7 +711,7 @@ html.dark-mode sup {
 
 html.dark-mode #post img,
 html.dark-mode #about img {
-  filter: brightness(0.80);
+  filter: brightness(0.88);
 }
 
 html.dark-mode #post .post-photo-caption {
