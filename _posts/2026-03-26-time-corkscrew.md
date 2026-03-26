@@ -74,7 +74,13 @@ $$a + bi$$
 
 The reason I'm providing this background is to explain the complex plane. When you try to graph complex numbers, you can't just map it on a line like a normal number; you must have two axes: one for the real part and one for the imaginary part. By convention, the horizontal (x) axis represents the real part and the vertical (y) axis represents the imaginary part. 
 
-You'll see that mapping $$i$$ maps rotation.
+Some examples:
+
+<img src="/images/time_corkscrew1.png" alt="complex numbers" class="post-photo post-photo--55" />
+
+You'll see from mapping $$i$$ that it rotates.
+
+<img src="/images/time_corkscrew2.png" alt="complex numbers" class="post-photo post-photo--55" />
 
 Each multiple of $$i$$ corresponds to a 90 degree rotation on the complex plane, because $$i$$ is $$i = \sqrt{-1}$$. That means if you start at 1, your only trajectory is:<br>
 

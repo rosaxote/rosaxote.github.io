@@ -443,12 +443,24 @@ ul.posts {
     padding: 1em 0;
   }
 
+  /* Plain markdown images (no custom post-photo class):
+     keep natural ratio and avoid full-column fill by default. */
+  #post img:not(.post-photo) {
+    display: block;
+    width: auto;
+    max-width: 70%;
+    height: auto;
+    margin: 1em auto;
+    padding: 0;
+  }
+
   /* Photo helpers for posts:
      - smaller images via classes in the MD (e.g. post-photo--48)
      - side-by-side via post-photo-row wrapper */
 
   #post img.post-photo {
     padding: 0;
+    width: auto;
     height: auto;
     display: block;
     margin: 1em auto;
@@ -495,7 +507,7 @@ ul.posts {
 
   #post .post-photo-row img.post-photo {
     margin: 0 auto;
-    width: 100%;
+    width: auto;
     max-width: 100%;
     display: block;
   }
@@ -505,14 +517,18 @@ ul.posts {
     padding-top: 0;
   }
 
-  #post img.post-photo--40 { width: 40%; max-width: 40%; }
-  #post img.post-photo--48 { width: 48%; max-width: 48%; }
-  #post img.post-photo--55 { width: 55%; max-width: 55%; }
-  #post img.post-photo--60 { width: 60%; max-width: 60%; }
-  #post img.post-photo--65 { width: 65%; max-width: 65%; }
-  #post img.post-photo--70 { width: 70%; max-width: 70%; }
+  #post img.post-photo--40 { max-width: 40%; }
+  #post img.post-photo--48 { max-width: 48%; }
+  #post img.post-photo--55 { max-width: 55%; }
+  #post img.post-photo--60 { max-width: 60%; }
+  #post img.post-photo--65 { max-width: 65%; }
+  #post img.post-photo--70 { max-width: 70%; }
 
   @media (max-width: 768px) {
+    #post img:not(.post-photo) {
+      max-width: 100%;
+    }
+
     #post img.post-photo {
       width: 100%;
       max-width: 100%;
