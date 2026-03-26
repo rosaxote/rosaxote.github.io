@@ -90,7 +90,7 @@ $$i$$ or (-1 x $$i$$) → a 270deg turn, and<br>
 1 or (-1 x -1) → a full 360deg turn.<br>
 
 
-### Natural growth is rotation on the complex plane
+### Natural Growth is Rotation on the Complex Plane
 
 So what does any of this matter? 
 
@@ -110,7 +110,7 @@ We will not dive deep into that in this post, except to observe that there is a 
 
 In other words, natural growth, under constraints, turns into rotation.
 
-### Time also grows
+### Time Also Grows
 
 We tend to think of time as independent and linear, but we know from Einstein's equations that space and time are linked. While the universe is unimaginably large relative to us, and time flows reasonably smoothly within this space, the universe has ultimately (likely) spatial limits too. That means, under those spatial limits, the growth of time must be constrained.
 
@@ -118,7 +118,7 @@ Thus, under spatial limits, the growth of time must turn into rotation.
 
 **Time must cycle.**
 
-### Implications for the nature of the universe
+### Implications for the Nature of the Universe
 
 I think there is a reason in various world religions there is a concept of rebirth and cycles of time. 
 
