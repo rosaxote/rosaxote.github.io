@@ -40,7 +40,7 @@ $$
 $$
 
 
-This number, ~2.718, turns out to be a constant in compound interest calculations. No matter what numbers you plug in, the end result will be a function of this constant. The full compounding equation is: 
+This number, ~2.718, turns out to be a constant in compound interest calculations. No matter what numbers you plug in, the end result will be a function of this constant. The compounding equation including time is: 
 
 $$P \left(1 + \frac{r}{n}\right)^{nt} = A$$
 
