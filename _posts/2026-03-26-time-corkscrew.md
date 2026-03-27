@@ -21,13 +21,19 @@ First, I must introduce a few concepts (I will write as if the reader has little
 
 ##### Euler's constant *e*
 
-One of them is the incredible number *e*, Euler's constant. This number had oft been bandied around in my undergraduate chemistry, biology, and math courses, but as a teenager I had zero appreciation for it (if my professors had emphasized its importance, I must've snoozed right through). Only much later, after I had started a company, taught a business course, and seriously confronted the idea of "growth" did I realize its significance. 
+One of them is the incredible number *e*, Euler's constant. This number, roughly 2.718..., had oft been bandied around in my undergraduate math, chemistry, and biology courses, but as a teenager I had zero appreciation for it (if my professors had emphasized its importance, I must've snoozed right through). Only much later, after I had started a company, taught a business course, and seriously confronted the idea of "growth" did I realize its significance. 
 
-*E*, first discovered by Swiss mathematician Jacob Bernoulli in the late 1600s, is integral to the idea of growth. Bernoulli discovered that when you compound a value at a certain interest with increasing frequency, the final value does not go infinitely up -- it approaches a limit. This limit, across all values, is a function of the approximate number ~2.718.  
+*E*, first discovered by Swiss mathematician Jacob Bernoulli in the late 1600s, is integral to growth. Bernoulli discovered that when you compound a value at a certain interest with increasing frequency, the final value does not go infinitely up -- it approaches a limit. This limit, across all values, is a function of the approximate number ~2.718.  
 
 $$(1+r/n)^n \to \approx 2.718^r \text{ as } n \to \infty$$
 
 Where $$n$$ is the frequency of compounding and $$r$$ is your interest rate.
+
+The full compounding equation is: 
+
+$$P \left(1 + \frac{r}{n}\right)^{nt} = A$$
+
+(where the initial principal = $$P$$, annual interest rate (decimal) = $$r$$, time (years) = $$t$$, compounding periods per year = $$n$$, and the final amount = $$A$$)
 
 As the simplest example, if you invested $1 at 100% interest per year, after one year you will have $2. If you increase the number of times you compound during the year, that final number will go up. However, it will not grow linearly. As you compound two, ten, a hundred times, the final value will approach ~$2.718(...).
 
@@ -39,14 +45,9 @@ $$
 \end{aligned}
 $$
 
+This number, ~2.718, turns out to be a constant in compound interest calculations. No matter what numbers you plug in, the end result will be a function of this constant. 
 
-This number, ~2.718, turns out to be a constant in compound interest calculations. No matter what numbers you plug in, the end result will be a function of this constant. The compounding equation including time is: 
-
-$$P \left(1 + \frac{r}{n}\right)^{nt} = A$$
-
-(where the initial principal = $$P$$, annual interest rate (decimal) = $$r$$, time (years) = $$t$$, compounding periods per year = $$n$$, and the final amount = $$A$$)
-
-Which, as n approaches infinity (aka continuous compounding), simplifies to:
+Ergo, as n approaches infinity (aka continuous compounding), the full equation simplifies to:
 
 $$P(2.718...)^{rt} = A$$
 
@@ -106,7 +107,7 @@ $$e^{i\pi} + 1 = 0$$
 
 also called "the most beautiful theorem in mathematics."<sup>1</sup>
 
-We will not dive deep into that in this post, except to observe that there is a very strong relationship between $$e$$ and $$i$$, and thus natural growth can be mapped as rotation on the complex plane.
+We will not dive deep into that in this post, except to observe that there is a very strong relationship between $$e$$ and $$i$$, and thus *natural growth* can be mapped as *rotation* on the complex plane.
 
 In other words, natural growth, under constraints, turns into rotation.
 
@@ -120,7 +121,7 @@ Thus, under spatial limits, the growth of time must turn into rotation.
 
 ### Implications for the Nature of the Universe
 
-I think there is a reason in various world religions there is a concept of rebirth and cycles of time. 
+I think there is a reason various world religions have a concept of rebirth and cycles of time. 
 
 If time (and space) rotates, it is like a corkscrew holding things in our universe and beyond together. Without the rotation, everything in the universe would fall apart.
 
