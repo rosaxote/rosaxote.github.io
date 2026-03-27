@@ -107,7 +107,7 @@ $$e^{i\pi} + 1 = 0$$
 
 also called "the most beautiful theorem in mathematics."<sup>1</sup>
 
-We will not dive deep into that in this post, except to observe that there is a very strong relationship between $$e$$ and $$i$$, and thus *natural growth* can be mapped as *rotation* on the complex plane.
+We will not dive deep into that in this post, except to observe that there is a very strong relationship between $$e$$ and $$i$$, such that *natural growth* can be mapped as *rotation* on the complex plane.
 
 In other words, natural growth, under constraints, turns into rotation.
 
