@@ -59,4 +59,4 @@ Well, in real life, ~37% is certainly possible, but it is a low bar and ought to
 
 So that's my heuristic for life decisions!
 
-PS. Euler's constant *e* is a very fascinating number. It's intimately tied with growth and I believe existence/nonexistence. More on this another time!
+PS. Euler's constant *e* is a very fascinating number. It's intimately tied with growth and I believe existence/nonexistence. More on this [another time](https://rosaxote.github.io/main/2026/03/26/time-corkscrew.html)!
