@@ -23,7 +23,7 @@ First, I must introduce a few concepts (I will write as if the reader has little
 
 One of them is the incredible number *e*, Euler's constant. This number, roughly 2.718..., had oft been bandied around in my undergraduate math, chemistry, and biology courses, but as a teenager I had zero appreciation for it (if my professors had emphasized its importance, I must've snoozed right through). Only much later, after I had started a company, taught a business course, and seriously confronted the idea of "growth" did I realize its significance. 
 
-*E*, first discovered by Swiss mathematician Jacob Bernoulli in the late 1600s, is integral to growth. Bernoulli discovered that when you compound a value at a certain interest with increasing frequency, the final value does not go infinitely up -- it approaches a limit. This limit, across all values, is a function of the approximate number ~2.718.  
+*E*, first discovered by Swiss mathematician Jacob Bernoulli in the late 1600s, is integral to growth calculations. Bernoulli discovered that when you compound a value at a certain interest with increasing frequency, the final value does not go infinitely up -- it approaches a limit. This limit, across all values, is a function of the approximate number ~2.718.  
 
 $$(1+r/n)^n \to \approx 2.718^r \text{ as } n \to \infty$$
 
@@ -53,7 +53,7 @@ $$P(2.718...)^{rt} = A$$
 
 Decades later, Bernoulli's compatriot Leonhard Euler expanded on the applications for this constant, showing that it crops up wherever there is continuous compounding. **Where there is continuous compounding, something is either growing or decaying.** 
 
-Euler assigned this constant the letter *e*, and it became known as Euler's constant. *E* is fundamental to our later understanding of such disparate fields as population growth, radioactive decay, statistical normal distribution (and yes, [the Secretary problem](https://rosaxote.github.io/main/2026/02/27/optimal-stopping.html)).
+Euler assigned this constant the letter *e*, and it became known as Euler's constant. *E* is fundamental to our understanding of any situation with growth or decay -- spanning such disparate fields as population growth, radioactive decay, statistical normal distribution (and yes, [the Secretary problem](https://rosaxote.github.io/main/2026/02/27/optimal-stopping.html)).
 
 So let's keep this number in mind.
 
