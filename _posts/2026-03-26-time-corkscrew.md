@@ -16,7 +16,7 @@ In this post, I want to explore how time is like a corkscrew holding the univers
 
 ### First, a few concepts
 
-First, I must introduce a few concepts (I will write as if the reader has little background in math/physics, to start from the ground up). 
+First, I must introduce a few concepts (introduce or refresh, depending on the reader). 
 
 
 ##### Euler's constant *e*
@@ -59,7 +59,7 @@ So let's keep this number in mind.
 
 ##### The complex plane
 
-The second concept I want to introduce are imaginary numbers and the complex plane. 
+The second concept I want to touch on are imaginary numbers and the complex plane. 
 
 Most numbers we encounter are real - we can perform calculations with them and get concrete solutions, whether the number is negative, positive, or irrational (cannot be expressed as a simple fraction, such as &pi; or *e*). 
 
