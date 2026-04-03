@@ -39,9 +39,11 @@ If we're going to keep the human population at replacement rate, we're going to 
 
 ### Things that could help
 
-Here are a few thoughts on things that would help, though this question certainly deserves a deep treatment on its own: 
+Here are a few thoughts on things that would help (and not), though this question certainly deserves a deep treatment on its own: 
 
-Extending female fertility. We are making headways in that with IVF, egg freezing, surrogacy, new medical treatments. If women had a similar reproductive timeline as men, that would be a game-changer.
+Government providing subsidies to businesses for both maternity leave and back-up training. This would help women of childbearing age be seriously considered for and retained for key roles. It is hard for businesses to shoulder the burden of key staff who may unexpectedly drop out for several months. It takes time to train and position back-ups. So if we really want to help women be equal in the workforce the government should step in and help.
+
+I used to think extending female fertility would be a game-changer. While it would certainly help, it may be like making highways larger: yeah the traffic eases up for a bit, but then just returns with greater force. Women would probably just delay childbirth even more. Even if they matched men's timelines, someone still has to have the kids at some point. However, I'm all for advancing IVF, egg freezing, surrogacy, new medical treatments.
 
 Remote work allowing more flexible geography, and thus mixing. Perhaps someone working in media doesn't have to spend all her time in NYC. Remote work also helps new parents and parents of young kids. Though again, remote work can make it harder for young people to connect.
 
