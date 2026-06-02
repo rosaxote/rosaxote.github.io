@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AI-first Societies are like Car-centric Cities
+title: AI-first Societies are like Car-first Cities
 published: true
 category: main
 ---
@@ -22,16 +22,20 @@ Suddenly, we had to get in a car and deal with intersections, highways, and othe
 
 ### The AI Highway
 
-I mention this because I see a very similar parallel with the rise of AI. Everywhere (at least in the tech world), people are talking of building AI-first companies, AI-first cities, AI-first economies. Well, we've already had this experiment. With the rise of one of the most disruptive technologies of its time, the personal vehicle, we also started building car-first cities, car-first economies. We paved over neighborhoods and built soaring highways between them. We cut down trees and expanded our highways from one lane, to two, to five and six. We remodeled our cities so that people lived out in the suburbs and commuted for long times to their offices, and slowly never saw their neighbors.
+I mention this because I see a very similar parallel with the rise of AI. Everywhere (at least in the tech world), people are talking of building AI-first companies, AI-first cities, AI-first economies. 
+
+Well, we've already had this experiment. With the rise of one of the most disruptive technologies of its time, the personal vehicle, we also started building car-first cities, car-first economies. 
+
+We paved over neighborhoods and built soaring highways between them. We cut down trees and expanded our highways from one lane, to two, to five and six. We remodeled our cities so that people lived out in the suburbs and commuted for long times to their offices, and **slowly never saw their neighbors.**
 
 What was supposed to make lives more efficient actually made them less efficient, and also less pleasant to live in.
 
-At the end of it all, the cities and economies that thrived the most were the ones that stuck to a more natural flow -- the pedestrian cities built before the rise of the car. New York City, Tokyo, London, etc. -- they kept their density, their 15-minute essentials, their parks and shops. What was 'traditional' and 'old school' served them in the long run. Not to say they don't have cars -- they certainly do. But cars did and do not take precedence over people in those cities.
+At the end of it all, the cities and economies that thrived were the ones that didn't reorient themselves -- the pedestrian cities built before the rise of the car. New York City, Tokyo, London, etc. -- they kept their density, their 15-minute essentials, their parks and shops. What was 'traditional' and 'old school' served them in the long run. Not to say they lack cars -- they certainly have them. But cars are second to people in those cities.
 
-I believe AI-first companies and economies are similar. I have no doubt some people, some companies and cities may reorient themselves and/or build anew with this AI orientation. I believe they will generate returns and economic activity. 
+I believe AI-first companies and economies are similar. I have no doubt some people, some companies and cities may reorient themselves to be AI-first, and generate great economic returns. 
 
-But I think they will trail the companies, economies, and societies that preserve the human-centric way of doing things, with AI only as accoutrement. For they will find, in an AI-first world, that people experience friction in connecting to others, that there will be a lot of AI-generated noise, that races occur to both the top and bottom, that things actually don't get more efficient.
+But I think they will trail the companies, economies, and societies that remain human-first, with AI only as accoutrement. For they will find, in an AI-first world, that people experience friction in connecting to others, that there will be a lot of AI-generated noise, that races occur to both the top and bottom, that things *actually don't get more efficient.*
 
-The ones that emphasize in-person meetings, mentorship, human writing and communication, rather than offloading it all to AI, will, I believe, succeed in the long run.
+The ones that emphasize in-person meetings, mentorship, human writing and communication, rather than offloading it to AI, will, I believe, succeed in the long run.
 
 Oh, and as for Texas? We didn't last a year ... we moved back to the Bay area.
