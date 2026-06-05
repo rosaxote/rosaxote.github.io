@@ -43,6 +43,6 @@ Businesses exist as long as these gradients exist; the gradients fuel them. You 
 
 Where there is no gradient, businesses will struggle. Even businesses with no market will find another gradient to fulfill -- for example, a venture capitalist's need to deploy capital and have something to show their LPs. 
 
-This also explains why markets tend to consolidate into a few big players. The market will find the most efficient route to flow. It could be you, it could be a competitor. When a player becomes the most efficient way to dissipate demand, demand will flow to that player and leave less efficient funnels.
+This also explains why markets tend to consolidate into a few big players. The market will find the most efficient route to flow. It could be you, it could be a competitor. When a player becomes the most efficient way to dissipate demand, demand will flow to that player and leave less efficient funnels (high and dry).
 
 When a gradient resolves, there is no more need for a business. At this point, it may dissolve back into its environment or find another gradient to fulfill. 
