@@ -14,9 +14,28 @@ How did life arise? Many people have pondered this question since antiquity. In 
 
 Where there is a gradient -- in that on one side, there is more of something (typically matter, energy, etc.), and on the other side, less -- things will flow from more to less, given the chance. This is dictated by the laws of thermodynamics -- things tend to seek equilibrium. When the gradient is small, the flow is simple; but increase the gradient and external factors, and very soon the flow can organize itself into something quite complex. These "dissipative structures" are nature's way of finding the most efficient route to dissipate energy and resolve the gradient.
 
-For example, tornadoes and hurricanes are self-organizing vortexes resolving an imbalance of heat and moisture. Releasing the plug on your bathtub, with the change from a trickle to a whirling funnel of water, is a dissipative structure. Chemical reactions are dissipative structures. Living organisms are classic dissipative structures: we ingest energy (food, water, sunlight) and dissipate heat and waste.
+<figure class="post-photo-figure post-photo-figure--pair">
+  <div class="post-photo-row post-photo-row--2">
+    <a href="/images/waterspouts.jpg" class="post-photo-link" target="_blank" rel="noopener">
+      <img src="/images/waterspouts.jpg" alt="waterspouts" class="post-photo" />
+    </a>
+    <a href="/images/white-cat.png" class="post-photo-link" target="_blank" rel="noopener">
+      <img src="/images/white-cat.png" alt="white-cat" class="post-photo" />
+    </a>
+  </div>
+  <figcaption class="post-photo-caption">Dissipative structures in the wild.</figcaption>
+</figure>
 
-BUSINESSES RESOLVE GRADIENTS
+For example, tornadoes and hurricanes are self-organizing vortexes resolving an imbalance of heat and moisture. Releasing the plug on your bathtub, with the change from a trickle to a whirling funnel of water, is another example. Chemical reactions are classic dissipative structures. Further in complexity, we, as living organisms, are dissipative structures: we ingest energy (food, water, sunlight) and dissipate heat and waste.
+
+<figure class="post-photo-figure">
+  <a href="/images/Belousov_Zhabotinsky.jpg" class="post-photo-link" target="_blank" rel="noopener">
+    <img src="/images/Belousov_Zhabotinsky.jpg" alt="Belousov_Zhabotinsky" class="post-photo post-photo--55" />
+  </a>
+  <figcaption class="post-photo-caption">The Belousov Zhabotinsky chemical reaction, another dissipative structure, produces mesmerizing geometric patterns ... makes me think that dreams are dissipative structures too.</figcaption>
+</figure>
+
+### Businesses resolve gradients
 
 Businesses are also dissipative structures. They form where there is an imbalance of demand and supply. A structure forms to address this imbalance. It can be a very simple structure, where a freelancer produces work for someone else; or it can become quite complex, requiring a leadership team, a marketing team, engineering, HR, legal, perhaps even an internship program. 
 
