@@ -518,7 +518,7 @@ ul.posts {
   }
 
   #post figure.post-photo-figure--pair {
-    border: 1px solid #ddd;
+    border: 1px solid #ccc;
     padding: 0.65em;
     background-color: #faf8f6;
   }
@@ -526,21 +526,28 @@ ul.posts {
   #post figure.post-photo-figure--pair .post-photo-row {
     margin: 0;
     gap: 0.5em;
+    align-items: stretch;
   }
 
   #post figure.post-photo-figure--pair .post-photo-link {
+    position: relative;
+    display: block;
     aspect-ratio: 4 / 3;
     overflow: hidden;
-    border: 1px solid #e0dcd8;
+    border: 1px solid #d5d0cb;
     background-color: #f5f2ef;
   }
 
   #post figure.post-photo-figure--pair .post-photo-link img.post-photo {
+    position: absolute;
+    inset: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
     margin: 0;
+    padding: 0;
     max-width: none;
+    flex: none;
   }
 
   #post figure.post-photo-figure--pair .post-photo-caption {
@@ -563,6 +570,15 @@ ul.posts {
     #post img.post-photo {
       width: 100%;
       max-width: 100%;
+    }
+
+    #post figure.post-photo-figure--pair .post-photo-link img.post-photo {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      max-width: none;
+      object-fit: cover;
     }
 
     #post .post-photo-row,
@@ -750,12 +766,12 @@ html.dark-mode #post .post-photo-caption {
 }
 
 html.dark-mode #post figure.post-photo-figure--pair {
-  border-color: #3a3937;
+  border-color: #5a5855;
   background-color: #2a2826;
 }
 
 html.dark-mode #post figure.post-photo-figure--pair .post-photo-link {
-  border-color: #3a3937;
+  border-color: #5a5855;
   background-color: #252422;
 }
 
