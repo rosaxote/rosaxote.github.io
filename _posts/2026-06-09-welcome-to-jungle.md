@@ -11,7 +11,7 @@ category: main
 <p class="meta">6.9.26 - SF Bay area</p>
 
 
-The business ecosystem has oft been compared to the jungle, with its myriad species and intense competition. But I’ll like to argue that for the startup world, a temperate forest is a much more apt analogy — at least ideally.
+The business ecosystem has oft been compared to the jungle, with its myriad species and intense competition. But I’ll like to argue that for the startup world, a temperate forest is a much more apt analogy -- at least ideally.
 
 ### Biomes
 
@@ -24,19 +24,19 @@ A temperate forest/grassland has the following characteristics:
 - Far less competition
 - Rewards fast growth over specialized defenses
 
-I’ll dive into why this type of environment is ideal for a startup business, but first let me explain why a jungle — aka a densely packed ecosystem — is one of the harshest places to start a business.
+I’ll dive into why this type of environment is ideal for a startup business, but first let me explain why a jungle -- aka a densely packed ecosystem -- is one of the harshest places to start a business.
 
 ### The Jungle is a terrible place for a startup
 
 The jungle - defined by a place or market where seemingly limitless resources are being thrown every which way, where ambitious youth aspire to go/start a company, where gobsmacking fortunes are made. Yet despite its lush abundance, a jungle is a terrible place for a seedling.
 
-1. Competition is fierce — gaining dominance is very, very hard. For every one of you, there are twenty other players doing the same thing. However, competition is not just a matter of everyone crowding the market. Competition is mainly fierce due to the next point:
+1. Competition is fierce -- gaining dominance is very, very hard. For every one of you, there are twenty other players doing the same thing. However, competition is not just a matter of everyone crowding the market. Competition is mainly fierce due to the next point:
 
 2. Benefits accrue to the old. 
 Jungles are lush because they’ve had time to grow lush. This means they’ve had a long time of relative peace. While this might sound nice to a seedling, it’s actually not. It means there have been no natural events (winter, storms, economic shocks, etc.) to reset the playing field. In this type of environment, once a species gets settled, it tends to stay put, crowding out seedlings who wither under its shadow. The rich get richer, while everyone else fights for the scraps. Or in other words, there are hyper-dominant players and everyone else, competing away the niches.  
 
 3. You spend inordinate resources on appearances and defense.
-Soils are actually very poor in a jungle — most species pour their resources into their outward appearances (above-ground parts like trunks, branches, and leaves) in order to elbow their way towards sunlight and resources. Because of this, they have shallow roots and are easily toppled (read: hype-based startups). Jungle denizens also spend much of their resources fighting pathogens and predators (frivolous lawsuits, incumbents, public opinion), instead of growing.
+Soils are actually very poor in a jungle -- most species pour their resources into their outward appearances (above-ground parts like trunks, branches, and leaves) in order to elbow their way towards sunlight and resources. Because of this, they have shallow roots and are easily toppled (read: hype-based startups). Jungle denizens also spend much of their resources fighting pathogens and predators (frivolous lawsuits, incumbents, public opinion), instead of growing.
 
 To have any chance at dominance in a jungle environment, you must have 1) outside-the-norm dispersal (going viral/great marketing) 2) enough resources for a long lifespan (a war chest) 3) high defense mechanisms (great legal team) and 4) widespread recruitment (talent). 
 
