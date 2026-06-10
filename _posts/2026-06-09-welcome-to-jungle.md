@@ -46,7 +46,7 @@ By contrast, a temperate forest is an ideal place for a seedling to start out. A
 
 There is much less competition, and fewer natural predators. Because it's not a place of lush abundance, there are also routine disturbances (winter freezes, forest fires, finicky VCs) that level the playing field, ensuring new players can get a foothold. 
 
-In this environment, the strategy is to grow fast in order to dominate. While in a jungle environment, you need uncommon resources, distribution, and defense in order to break through, in a temperate environment you can be scrappy — you just need to grow fast.
+In this environment, the strategy is to grow fast in order to dominate. While in a jungle environment, you need uncommon resources, distribution, and defense in order to break through, in a temperate environment you can be scrappy -- you just need to grow fast.
 
 ### What are some examples? 
 
