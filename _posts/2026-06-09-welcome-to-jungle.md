@@ -55,3 +55,5 @@ In this environment, the strategy is to grow fast in order to dominate. While in
 **Jungle: AI post-2023.** The giants move in -- Google, Microsoft, Meta. OpenAI, Anthropic are now big enough that they can defend their territory. Startups starting now will be competing for niches.
 
 When a technology gets baked into everyday life (banking, cars, Internet, smartphones), it will be very hard to unseat the incumbent(s). This is the "peace" -- the technology is so essential that the ecosystem is wired to keep its providers operating and in place. They become "too big to fail" (even though occasionally they do).
+
+A young seedling would do best by finding new ground to grow.
