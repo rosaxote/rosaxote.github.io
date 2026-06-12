@@ -51,6 +51,7 @@ In this environment, the strategy is to grow fast in order to dominate. While in
 ### What are some examples? 
 
 **Temperate forest: AI pre-2023.** Startups have a chance -- OpenAI, Anthropic, Cursor. Fast growth is the order of the day.
+
 **Jungle: AI post-2023.** The giants move in -- Google, Microsoft, Meta. OpenAI, Anthropic are now big enough that they can defend their territory. Startups starting now will be competing for niches.
 
 When a technology gets baked into everyday life (banking, cars, Internet, smartphones), it will be very hard to unseat the incumbent(s). This is the "peace" -- the technology is so essential that the ecosystem is wired to keep its providers operating and in place. They become "too big to fail" (even though occasionally they do).
