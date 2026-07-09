@@ -24,7 +24,7 @@ Suddenly, we had to get in a car and deal with intersections, highways, and othe
 
 I mention this because I see a very similar parallel with the rise of AI. Everywhere (at least in the tech world), people are talking of building AI-first companies, AI-first cities, AI-first economies. 
 
-Well, we've already had this experiment. With the rise of one of the most disruptive technologies of its time, the personal vehicle, we also started building car-first cities, car-first economies. We paved over neighborhoods and built soaring highways between them. We cut down trees and expanded our highways from one lane, to two, to five and six. We remodeled our cities so that people lived out in the suburbs and commuted for long times to their offices, and **slowly never saw their neighbors.**
+Well, we've already had this experiment. With the rise of one of the most disruptive technologies of its time, the personal vehicle, we also started building car-first cities, car-first economies. We paved over neighborhoods and built soaring highways between them. We cut down trees and expanded our highways from one lane, to two, to five and six. We remodeled our cities so that people lived out in the suburbs and commuted for long times to their offices, and slowly never saw their neighbors.
 
 What was supposed to make lives more efficient actually made them less efficient, and also less pleasant to live in.
 
