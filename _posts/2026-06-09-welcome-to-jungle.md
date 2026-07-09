@@ -30,7 +30,7 @@ I’ll dive into why this type of environment is ideal for a startup business, b
 
 The jungle - defined by a place or market where seemingly limitless resources are being thrown every which way, where ambitious youth aspire to go/start a company, where gobsmacking fortunes are made. Yet despite its lush abundance, a jungle is a terrible place for a seedling.
 
-1. **Competition is fierce** -- gaining dominance is very, very hard. For every one of you, there are twenty other players doing the same thing. However, competition is not just a matter of everyone crowding the market. Competition is mainly fierce due to the next point:
+1. **Competition is fierce.** Gaining dominance is very, very hard. For every one of you, there are twenty other players doing the same thing. However, competition is not just a matter of everyone crowding the market. Competition is mainly fierce due to the next point:
 
 2. **Benefits accrue to the old.** 
 Jungles are lush because they’ve had time to grow lush. This means they’ve had a long time of relative peace. While this might sound nice to a seedling, it’s actually not. It means there have been no natural events (winter, storms, economic shocks, etc.) to reset the playing field. In this type of environment, once a species gets settled, it tends to stay put, crowding out seedlings who wither under its shadow. The rich get richer, while everyone else fights for the scraps. Or in other words, there are hyper-dominant players and everyone else, competing away the niches.  
@@ -44,7 +44,7 @@ To have any chance at dominance in a jungle environment, you must have 1) outsid
 
 By contrast, a temperate forest is an ideal place for a seedling to start out. A temperate forest is a place or market where there is some interest and players, but it's not the center of attention. It's not at the top of every ambitious youngster's list. 
 
-A temperate forest is defined by:
+A temperate forest has the following:
 
 1. **Much less competition** -- This area isn't the hottest game in town (yet), so not everyone's rushed in. There are also fewer natural predators, because there's less attention here.
 
@@ -58,6 +58,6 @@ A temperate forest is defined by:
 
 **Jungle: AI post-2023.** The giants move in -- Google, Microsoft, Meta. OpenAI, Anthropic are now big enough that they can defend their territory (though there are still hurdles to overcome). Startups starting now will be competing for niches.
 
-Once a technology gets baked into everyday life (banking, cars, Internet, smartphones), it will be very hard to unseat the incumbent(s). This is the "peace" -- the technology is so essential that the ecosystem is wired to keep its providers operating and in place. They become "too big to fail" (even though occasionally they do). The market has matured.
+Once a technology gets baked into everyday life (banking, cars, Internet, smartphones), it will be very hard to unseat the incumbent(s). This is the "peace" -- the technology is so essential that the ecosystem is wired to keep its providers operating and in place. They become "too big to fail" (even though occasionally they do). 
 
 A young seedling would do best by finding new ground to grow.
