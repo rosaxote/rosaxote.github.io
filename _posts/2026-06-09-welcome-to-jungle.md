@@ -44,16 +44,20 @@ To have any chance at dominance in a jungle environment, you must have 1) outsid
 
 By contrast, a temperate forest is an ideal place for a seedling to start out. A temperate forest is a place or market where there is some interest and players, but it's not the center of attention. It's not at the top of every ambitious youngster's list. 
 
-There is much less competition, and fewer natural predators. Because it's not a place of lush abundance, there are also routine disturbances (winter freezes, forest fires, finicky VCs) that level the playing field, ensuring new players can get a foothold. 
+A temperate forest is defined by:
 
-In this environment, the strategy is to grow fast in order to dominate. While in a jungle environment, you need uncommon resources, distribution, and defense in order to break through, in a temperate environment you can be scrappy -- you just need to grow fast.
+1. **Much less competition** -- This area isn't the hottest game in town (yet), so not everyone's rushed in. There are also fewer natural predators, because there's less attention here.
+
+2. **Routine disturbances** -- This market isn't mature, and it's subject to the equivalent of winter freezes and forest fires (e.g. finicky investors, changing regulations, broader economic events, etc.). While it means there's more ups and downs, it also means the playing field is regularly leveled, ensuring new players can get a foothold.
+
+3. **Fast growth** -- The number one strategy in this type of environment is fast growth. You don't know when the next disturbance will hit, but you also don't need the uncommon resources and defense you need in a jungle environment. Here you can be scrappy -- you just need to grow fast in order to dominate.
 
 ### What are some examples? 
 
 **Temperate forest: AI pre-2023.** Startups have a chance -- OpenAI, Anthropic, Cursor. Fast growth is the order of the day.
 
-**Jungle: AI post-2023.** The giants move in -- Google, Microsoft, Meta. OpenAI, Anthropic are now big enough that they can defend their territory. Startups starting now will be competing for niches.
+**Jungle: AI post-2023.** The giants move in -- Google, Microsoft, Meta. OpenAI, Anthropic are now big enough that they can defend their territory (though there are still hurdles to overcome). Startups starting now will be competing for niches.
 
-When a technology gets baked into everyday life (banking, cars, Internet, smartphones), it will be very hard to unseat the incumbent(s). This is the "peace" -- the technology is so essential that the ecosystem is wired to keep its providers operating and in place. They become "too big to fail" (even though occasionally they do).
+Once a technology gets baked into everyday life (banking, cars, Internet, smartphones), it will be very hard to unseat the incumbent(s). This is the "peace" -- the technology is so essential that the ecosystem is wired to keep its providers operating and in place. They become "too big to fail" (even though occasionally they do). The market has matured.
 
 A young seedling would do best by finding new ground to grow.
