@@ -25,7 +25,7 @@ There are about 8.3 billion people on Earth today, with about 117 billion estima
 
 Here's a table of some key points in humanity's development, and the cumulative born at each stage:<sup>1</sup>
 
-<table style="border-collapse: collapse; width: 100%;">
+<table style="border-collapse: collapse; width: 100%; margin-bottom: 40px;">
   <thead>
     <tr>
       <th style="border: 1px solid #ccc; padding: 8px; text-align: left; font-weight: bold; width: 20%;">Date</th>
@@ -76,7 +76,7 @@ Here's a table of some key points in humanity's development, and the cumulative 
 
 Humanity approximates a neural network due to its ability to pass forward information (forward propagation). In the early days, we did this through language, drawings, and oral traditions. Later, we invented writing, and this allowed us to transmit more information, with more detail, than ever before. Eventually, we invented the printing press, photography, telegraph/radio, videography, computing, the Internet, etc. all of which enabled us to share and propagate copious amounts of information.
 
-Now, obviously, only a fraction of humanity was literate at any time prior to the modern age. But nonetheless, a lot of us now effectively have access to the knowledge of not only our generation but also past generations.
+Now, obviously, only a fraction of humanity was literate at any time prior to the modern age. But nonetheless, a lot of us now effectively have access to the knowledge of not only our generation, but also past generations, with high fidelity.
 
 And it seems that at each stage of access, new capabilities are unlocked.
 
@@ -86,7 +86,7 @@ And it seems that at each stage of access, new capabilities are unlocked.
 
 The size of AI models is often described by number of parameters -- e.g. the number of internal variables generated during training (also called weights). Let's look at the size of key models over time and their capabilities.<sup>2</sup>
 
-<table style="border-collapse: collapse; width: 100%;">
+<table style="border-collapse: collapse; width: 100%; margin-bottom: 40px;">
   <thead>
     <tr>
       <th style="border: 1px solid #ccc; padding: 8px; text-align: left; font-weight: bold; width: 20%;">Model</th>
@@ -149,7 +149,7 @@ If individual humans are a proxy for parameters -- with their distillation and w
 
 This seems like an inflection point for hockey stick growth, and a phase change in terms of capability.
 
-More on forgetting and context-rot in another post!
+*More on forgetting and context-rot in another post!*
 
 
 <hr>
