@@ -15,7 +15,7 @@ It somewhat appears that humanity is a constantly growing neural network, consta
 
 Sometimes it even 'forgets' and destroys evidence of its past, in order to move forward.
 
-I'll illustrate this in a couple ways: first, with a quantitative view of humanity's growth, and second, with a qualitative look at how societies and civilizations have revitalized themselves throughout history (related to the concept of context rot).
+I'll explore this in a couple ways: first, with a quantitative view of humanity and how that compares with AI models, and second, with a qualitative look at how societies and civilizations have revitalized themselves throughout history (related to the concept of context rot).
 
 ### Humanity's Growth
 
@@ -74,11 +74,11 @@ Here's a table of some key points in humanity's development, and the cumulative 
   </tbody>
 </table>
 
-Humanity approximates a neural network due to its ability to pass forward information (forward propagation). In the early days, we did this through language, drawings, and oral traditions. Later, we invented writing, and this allowed us to transmit more information, with more detail, than ever before. Eventually, we invented the printing press, photography, telegraph/radio, videography, computing, the Internet, etc. all of which enabled us to share and propagate copious amounts of information.
+Humanity seems to approximate a neural network due to its ability to pass forward information (forward propagation). In the early days, we did this through language, drawings, and oral traditions. Later, we invented writing, and this allowed us to transmit more information, with more detail, than ever before. Eventually, we invented the printing press, photography, telegraph/radio, videography, computing, the Internet, etc. all of which enabled us to share and propagate copious amounts of information.
 
-Now, obviously, only a fraction of humanity was literate at any time prior to the modern age. But nonetheless, a lot of us now effectively have access to the knowledge of not only our generation, but also past generations, with high fidelity.
+Now, obviously, only a fraction of humanity was literate at any time prior to the modern age. But nonetheless, a lot of us now effectively have access to the knowledge of not only our generation, but also past generations, with high fidelity. And we pass on our experiences and thoughts to those around us, our organizations and communities, and future generations.
 
-And it seems that at each stage of access, new capabilities are unlocked.
+It seems that with increasing humans, new capabilities emerge. How does this compare with neural networks?
 
 ### Size of Models
 
@@ -145,11 +145,11 @@ Now, of course, size isn't everything, and models like Meta's Llama and DeepSeek
 
 ### 100 billion
 
-If individual humans are a proxy for parameters -- with their distillation and weighting of information -- you could say that roughly, ~100 billion is the threshold for achieving a population-wide intelligence. That is, at this point you are able to achieve far more than you could at even 50 billion.
+If individual humans are a proxy for parameters -- with their distillation and weighting of information -- you could say that roughly, ~100 billion is the threshold for achieving breakthrough performance. That is, at this point you are able to achieve far more than you could at even 50 billion.
 
 This seems like an inflection point for hockey stick growth, and a phase change in terms of capability.
 
-*More on forgetting and context-rot in another post!*
+*Second half on forgetting and context-rot in another post!*
 
 
 <hr>
