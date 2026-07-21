@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Deploy an App to Kubernetes (Digital Ocean)
-published: true
+published: false
 category: old
 ---
 
