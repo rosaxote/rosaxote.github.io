@@ -86,7 +86,7 @@ How does this compare with neural networks?
 
 ![neural network](/images/neuralnetwork1.png)
 
-The size of AI models is often described by number of parameters -- e.g. the number of internal variables generated during training (also called weights). Let's look at the size of key models over time and their capabilities.<sup>2</sup>
+The size of AI models is often described by number of parameters -- e.g. the number of internal variables generated during training (also called model weights). Let's look at the size of key models over time and their capabilities.<sup>2</sup>
 
 <table style="border-collapse: collapse; width: 100%; margin-bottom: 40px;">
   <thead>
