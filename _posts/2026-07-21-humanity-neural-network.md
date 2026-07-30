@@ -101,37 +101,37 @@ The size of AI models is often described by number of parameters -- e.g. the num
     <tr>
       <td style="border: 1px solid #ccc; padding: 8px;">LeNet-5</td>
       <td style="border: 1px solid #ccc; padding: 8px;">1998</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Convolutional Neural Network (CNN) for digits</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Can read digits</td>
       <td style="border: 1px solid #ccc; padding: 8px;">60,000</td>
     </tr>
     <tr>
       <td style="border: 1px solid #ccc; padding: 8px;">AlexNet</td>
       <td style="border: 1px solid #ccc; padding: 8px;">2012</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Won ImageNet</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Can differentiate images (won ImageNet)</td>
       <td style="border: 1px solid #ccc; padding: 8px;">60 million</td>
     </tr>
     <tr>
       <td style="border: 1px solid #ccc; padding: 8px;">ResNet</td>
       <td style="border: 1px solid #ccc; padding: 8px;">2015</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Surpassed human-level performance on ImageNet</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Better than humans on ImageNet</td>
       <td style="border: 1px solid #ccc; padding: 8px;">25-60 million</td>
     </tr>
     <tr>
       <td style="border: 1px solid #ccc; padding: 8px;">Bert</td>
       <td style="border: 1px solid #ccc; padding: 8px;">2018</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Human-level performance on reading comprehension</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Gains reading comprehension</td>
       <td style="border: 1px solid #ccc; padding: 8px;">110-340 million</td>
     </tr>
     <tr>
       <td style="border: 1px solid #ccc; padding: 8px;">GPT-2</td>
       <td style="border: 1px solid #ccc; padding: 8px;">2019</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Zero-shot task performance</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Better than others but unwieldy to set up</td>
       <td style="border: 1px solid #ccc; padding: 8px;">1.5 billion</td>
     </tr>
     <tr>
       <td style="border: 1px solid #ccc; padding: 8px;">GPT-3</td>
       <td style="border: 1px solid #ccc; padding: 8px;">2020</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Zero and few shot prompting</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Breakthrough chat performance - handles human prompts with ease</td>
       <td style="border: 1px solid #ccc; padding: 8px;">175 billion</td>
     </tr>
     <tr>
