@@ -15,7 +15,7 @@ It somewhat appears that humanity is a constantly growing neural network, consta
 
 Sometimes it even 'forgets' and destroys evidence of its past, in order to move forward.
 
-I'll explore this in a couple ways: first, with a quantitative view of humanity and how it compares with AI models, and second, with a qualitative look at how societies and civilizations have revitalized themselves throughout history (related to the concept of context rot).
+I'll explore this in a couple ways: first, with a quantitative view of humanity and how it compares with AI models, and second, with a qualitative look at how civilizations have revitalized themselves throughout history (related to the concept of context rot).
 
 ### Humanity's Growth
 
