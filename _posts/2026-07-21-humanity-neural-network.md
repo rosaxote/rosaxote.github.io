@@ -15,7 +15,7 @@ It somewhat appears that humanity is a constantly growing neural network, consta
 
 Sometimes it even 'forgets' and destroys evidence of its past, in order to move forward.
 
-I'll explore this in a couple ways: first, with a quantitative view of humanity and how that compares with AI models, and second, with a qualitative look at how societies and civilizations have revitalized themselves throughout history (related to the concept of context rot).
+I'll explore this in a couple ways: first, with a quantitative view of humanity and how it compares with AI models, and second, with a qualitative look at how societies and civilizations have revitalized themselves throughout history (related to the concept of context rot).
 
 ### Humanity's Growth
 
@@ -76,9 +76,11 @@ Here's a table of some key points in humanity's development, and the cumulative 
 
 Humanity seems to approximate a neural network due to its ability to pass forward information (forward propagation). In the early days, we did this through language, drawings, and oral traditions. Later, we invented writing, and this allowed us to transmit more information, with more detail, than ever before. Eventually, we invented the printing press, photography, telegraph/radio, videography, computing, the Internet, etc. all of which enabled us to share and propagate copious amounts of information.
 
-Now, obviously, only a fraction of humanity was literate at any time prior to the modern age. But nonetheless, a lot of us now effectively have access to the knowledge of not only our generation, but also past generations, with high fidelity. And we pass on our experiences and thoughts to those around us, our organizations and communities, and future generations.
+Now, obviously, only a fraction of humanity was literate at any time prior to the modern age. But nonetheless, a lot of us now have access to the knowledge of many past generations, with high fidelity. And we pass on our experiences and thoughts to those around us, our organizations and communities, and future generations. 
 
-It seems that with increasing humans, new capabilities emerge. How does this compare with neural networks?
+The net effect of this is our present network size is effectively approximately 100 billion (as that's when we started our documentation ~3000 BC). Crucially, this network mostly passes on only the best, most helpful, most enlightening information over time. Some things do get forgotten -- whether intentionally or not -- and sometimes resurface as needed. And with each size increase, new capabilities seem to emerge.
+
+How does this compare with neural networks?
 
 ### Size of Models
 
