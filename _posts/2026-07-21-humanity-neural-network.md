@@ -125,7 +125,7 @@ The size of AI models is often described by number of parameters -- e.g. the num
     <tr>
       <td style="border: 1px solid #ccc; padding: 8px;">GPT-2</td>
       <td style="border: 1px solid #ccc; padding: 8px;">2019</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Better than others but unwieldy to set up</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Better than before but unwieldy to set up</td>
       <td style="border: 1px solid #ccc; padding: 8px;">1.5 billion</td>
     </tr>
     <tr>
