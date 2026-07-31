@@ -160,4 +160,4 @@ This seems like an inflection point for hockey stick growth, and a phase change 
 
 <sup>2</sup><small> There were many key models besides these and of course various model architecture improvements besides parameter number, but using parameters to illustrate the scale factor. </small>
 
-<sup>3</sup><small> Other things that number roughly 100 billion: number of neurons in our brains (~86 billion); number of stars in the Milky Way (100-400 billion).
+<sup>3</sup><small> Other things that number roughly 100 billion: number of neurons in our brains (~86 billion); number of stars in the Milky Way (100-400 billion). </small>
