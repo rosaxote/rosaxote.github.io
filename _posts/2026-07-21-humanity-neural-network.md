@@ -149,7 +149,7 @@ Now, of course, size isn't everything, and models like Meta's Llama and DeepSeek
 
 If individual humans are a proxy for parameters -- with their distillation and weighting of information -- you could say that roughly, ~100 billion is the threshold for achieving breakthrough performance. That is, at this point you are able to achieve far more than you could at even 50 billion.
 
-This seems like an inflection point for hockey stick growth, and a phase change in terms of capability.
+This seems like an inflection point for hockey stick growth, and a phase change in terms of capability.<sup>3</sup>
 
 *Second half on forgetting and context-rot in another post!*
 
@@ -159,3 +159,5 @@ This seems like an inflection point for hockey stick growth, and a phase change 
 <sup>1</sup><small> These numbers are derived from Population Reference Bureau's (PRB) methodology, which accounts for high prehistoric infant mortality rates and improved survival and longevity in modern times. </small>
 
 <sup>2</sup><small> There were many key models besides these and of course various model architecture improvements besides parameter number, but using parameters to illustrate the scale factor. </small>
+
+<sup>3</sup><small> Other things that number roughly 100 billion: number of neurons in our brains (~86 billion); number of stars in the Milky Way (100-400 billion).
