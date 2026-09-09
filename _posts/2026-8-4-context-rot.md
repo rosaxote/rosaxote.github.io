@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Teens, Outsiders, and Taking Vacation; or, the Benefits of Context Rot
-published: false
+title: Context rot I - Why teens, outsiders, and taking vacation can bring solutions
+published: true
 category: main
 ---
 
@@ -12,31 +12,24 @@ category: main
 
 In building artificial intelligence models, there is the curious phenomenon of decreasing performance with increasing context. That is, the more you hold in memory, the more it seems to introduce noise and degrade the model's output. 
 
-AI MODEL MAKERS RACED TO TOP EACH OTHER'S CONTEXT -- HOWEVER IT BACKFIRED
-For a time, model makers raced to outbid each other in terms of context size. OpenAI started with --, but was soon outdone with -- EXAMPLES. 
+### AI Model makers raced to boost context - However it backfired
+
+For a time, model makers raced to outbid each other in terms of context size. OpenAI started with a measly 4,096 tokens (the equivalent of about 3,000 English words) in the inaugural ChatGPT of 2022, but by early 2023 increased it to a possible 32,000 tokens. They were soon outdone with Anthropic with 100,000 tokens. OpenAI responded with 128,000 tokens. By 2024 Google had trumped them all with up to 2 million tokens. 
 
 The thought was that increasing context windows would create an even more powerful model -- I mean, who wouldn't want to hold the capacity of a library in their head? 
 
-As it turns out, perhaps nature built a limit to our memories for a reason. WHAT ACTUALLY HAPPENED
+As it turns out, perhaps nature built a limit to our memories for a reason. Researchers (and users) found that with increasing context windows, performance actually suffered. More noise entered the model, leading to degrading answers. There were various aspects of this (such as information being remembered most at the beginning and end of a context, leading to a "lost in the middle" effect). In aggregate it was termed "context rot".
 
+### What Teens, Outsiders, and Taking vacation have in common 
 
-FORGETTING IS A FEATURE, NOT A BUG
+In the real world, you see examples of this as well. When people have lived for a while (becoming middle aged), the minutiae of life builds up in their memories. They may forget why they do something the way they do, or why something is the way it is; things are just assumed. They may lose their edge, their detection of signal in the noise. 
 
-WHAT TEENS, OUTSIDERS, AND TAKING VACATION HAVE IN COMMON
-In the real world, you see examples of this as well. TEENS ARE AN EXAMPLE OF A BLANK SLATE
+In contrast, the youth are examples of blank slates. That's why they can hone in on problems that stump older generations with their fresh perspectives.
 
-OUTSIDERS ARE ALSO A VERSION OF A BLANK SLATE, EXCEPT WITH CONTEXT FROM ANOTHER FIELD
+In industry, outsiders are also a version of a blank slate, except with context from another field. Taking vacation also forces you to temporarily forget about your work, letting you come back with fresh eyes.
 
-TAKING VACATION FORCES YOU TO TEMPORARILY FORGET (CONSCIOUSLY) ABOUT YOUR WORK, LETTING YOUR SUBCONSCIOUS WORK IN THE BACKGROUND
+In an organization setting, context rot is addressed by segmentation and hierarchies: different roles have very specific contexts to pay attention to, limiting noise. The CEO, despite having the bird's eye view, is spared the minutiae to preserve focus.
 
-PEOPLE WHO HAVE BEEN THROUGH VERY HARD EXPERIENCES THEY HAVEN'T PROCESSED OFTEN BLOCK THE MEMORIES IN ORDER TO MOVE FORWARD
+Modern models have developed various techniques to address context rot.
 
-CIVILIZATIONS DO THIS TOO -- CHINA DESTROYED THEIR PAST DURING THE COMMUNIST REVOLUTION TO FORGET ABOUT THEIR 100 YEARS OF HUMILIATION AT THE HANDS OF THE WEST. THEY WENT THROUGH FURTHER HARDSHIP UNDER MAO ZEDONG, BUT DESPITE ACKNOWLEDGING THE MISSTEPS OF THAT PERIOD, THE CHINESE STILL INSIST THAT MAO ZEDONG'S RULE WAS NECESSARY FOR THEM TO PUT THEIR PAST BEHIND THEM, setting the stage for their unprecedented return and growth after 1978 under Deng Xiaopeng.
-
-EVERY MAJOR CIVILIZATION HAS GONE THROUGH CYCLES OF GROWTH FOLLOWED BY A LUXURIANT PERIOD, WHERE THEIR PRIORITIES AND PRINCIPLES GET MUDDIED. THIS IS OFTEN THE HARBINGER OF THEIR FALL. THEY ONLY GAIN A CLEAN SLATE THROUGH REVOLUTION AND/OR MAJOR REFORM.
-
-TRANSFERRING POWER TO BUSINESSES AND AWAY FROM GOVERNMENTS (WHILE MAINTAINING APPROPRIATE REGULATION), MAY BE A NATURAL PATH HUMANS HAVE DISCOVERED TO CONSTANTLY INTRODUCE CONTEXT ROT INTO THE SYSTEM -- BUSINESSES ENABLE TURNOVER OF ALL KINDS: GROUPS OF PEOPLE, IDEAS, HABITS, PRODUCTS. BEFORE BUSINESSES, YOU OFTEN HAD TO OVERTURN STIFLING LAWS OR A WHOLE GOVERNMENT IN ORDER TO GET MAJOR SOCIETAL CHANGE (sometimes you still do). WITH STRONG BUSINESSES, ONLY A CRITICAL MASS OF PEOPLE NEED TO DIRECT BUSINESSES OR VOTE WITH THEIR WALLET TO INSTILL CHANGE. [EXAMPLES]
-
-WALKING THROUGH EUROPEAN CITIES AS AN AMERICAN, YOU'RE STRUCK BY HOW OLD THE BUILDINGS ARE. EVERY TOUR IS A HISTORICAL TOUR. WHILE THE HISTORY IS RICH, YOU CAN'T HELP BUT THINK THAT IT FORCES PEOPLE TO PAY ATTENTION TO THE PAST AT THE EXPENSE OF THE FUTURE. [MOVE AS INTRO TO CHINA SECTION?]
-
-PERHAPS CONSTANT 'SMALL' FORGETS ARE KEY TO PREVENT THE SYSTEM FROM BEING OVERWHELMED, and to refresh itself into the future.
+But what happens when your context gets overloaded, especially with unwanted or damaging data? More on that here. 
