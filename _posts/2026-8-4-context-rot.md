@@ -30,6 +30,6 @@ In industry, outsiders are also a version of a blank slate, except with context 
 
 In an organization setting, context rot is addressed by segmentation and hierarchies: different roles have very specific contexts to pay attention to, limiting noise. The CEO, despite having the bird's eye view, is spared the minutiae to preserve focus.
 
-Modern models have developed various techniques to address context rot.
+Recent models have developed various techniques to address context rot, and agent organizational form - such as the aforementioned hierarchy - helps a lot. But it's still not completely solved (and perhaps can only be solved as nature has - with new generations).
 
-But what happens when your context gets overloaded, especially with unwanted or damaging data? More on that here. 
+And what happens when your context really gets overloaded, especially with unwanted or damaging data? More on that [here](https://rosaxote.github.io/main/2026/08/04/context-rot-forgetting.html). 

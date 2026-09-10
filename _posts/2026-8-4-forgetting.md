@@ -10,7 +10,7 @@ category: main
 
 <p class="meta">8.4.26 - SF Bay area</p>
 
-This post follows Context rot I.
+*This post follows the [Context rot I](https://rosaxote.github.io/main/2026/08/04/context-rot.html) post.*
 
 ### Forgetting is a feature, not a bug
 
