@@ -12,7 +12,7 @@ category: main
 
 In building artificial intelligence models, there is the curious phenomenon of decreasing performance with increasing context. That is, the more you hold in memory, the more it seems to introduce noise and degrade the model's output. 
 
-### AI Model makers raced to boost context - However it backfired
+### The Context Race 
 
 For a time, model makers raced to outbid each other in terms of context size. OpenAI started with a measly 4,096 tokens (the equivalent of about 3,000 English words) in the inaugural ChatGPT of 2022, but by early 2023 increased it to a possible 32,000 tokens. They were soon outdone with Anthropic with 100,000 tokens. OpenAI responded with 128,000 tokens. By 2024 Google had trumped them all with up to 2 million tokens. 
 
@@ -20,7 +20,7 @@ The thought was that increasing context windows would create an even more powerf
 
 As it turns out, perhaps nature built a limit to our memories for a reason. Researchers (and users) found that with increasing context windows, performance actually suffered. More noise entered the model, leading to degrading answers. There were various aspects of this (such as information being remembered most at the beginning and end of a context, leading to a "lost in the middle" effect). In aggregate it was termed "context rot".
 
-### What Teens, Outsiders, and Taking vacation have in common 
+### Teens, Outsiders, and Taking vacay
 
 In the real world, you see examples of this as well. When people have lived for a while (becoming middle aged), the minutiae of life builds up in their memories. They may forget why they do something the way they do, or why something is the way it is; things are just assumed. They may lose their edge, their detection of signal in the noise. 
 
