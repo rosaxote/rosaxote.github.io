@@ -32,4 +32,4 @@ In an organization setting, context rot is addressed by segmentation and hierarc
 
 Recent models have developed various techniques to address context rot, and agent organizational form - such as the aforementioned hierarchy - helps a lot. But it's still not completely solved (and perhaps can only be solved as nature has - with new generations).
 
-And what happens when your context really gets overloaded, especially with unwanted or damaging data? More on that [here](https://rosaxote.github.io/main/2026/08/04/context-rot-forgetting.html). 
+And what happens when your context really gets overloaded, especially with unwanted or damaging data? More on that [here](https://rosaxote.github.io/main/2026/08/04/forgetting.html). 
