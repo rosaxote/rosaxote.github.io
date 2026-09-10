@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Context rot I - Why teens, outsiders, and taking vacation can bring solutions
+title: Context rot I - Teens, outsiders, and vacay
 published: true
 category: main
 ---
