@@ -24,6 +24,6 @@ Every major civilization has gone through cycles of growth followed by a luxuria
 
 Transferring power to businesses and away from governments (while maintaining appropriate regulation), may be a natural path humans have discovered to constantly prevent context rot from creeping into the system -- businesses enable turnover of all kinds: groups of people, ideas, habits, products. Before businesses, you often had to overturn stifling laws or a whole government in order to get major societal change (sometimes you still do, but at least now there's option B). With strong businesses, only a critical mass of people need to direct businesses or vote with their wallet to instill change. 
 
-Walking through european cities as an American, you're struck by how old the buildings are. Every tour is a historical tour. While the history is rich, you can't help but think that it forces people to pay attention to the past at the expense of the future. As painful as it was, the ancient nations that completely rebuilt are the forerunners today.
+Walking through European cities as an American, you're struck by how old the buildings are. Every tour is a historical tour. While the history is rich, you can't help but think that it forces people to attend to the past at the expense of the future. As painful as it was, the nations that completely rebuilt are the forerunners today.
 
 Perhaps constant resets (ideally small, and not cataclysmic like the Communist Revolution) are the key to prevent the system from being overwhelmed, and to refresh itself into the future. 
